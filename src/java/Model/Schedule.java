@@ -11,15 +11,15 @@ import java.util.ArrayList;
  *
  * @author Duy Hiep
  */
-public class Shedule {
+public class Schedule {
     private int id;
     private Match match;
     private ArrayList<Team []> listTeam = new ArrayList<>();
 
-    public Shedule() {
+    public Schedule() {
     }
 
-    public Shedule(int id, Match match) {
+    public Schedule(int id, Match match) {
         this.id = id;
         this.match = match;
     }

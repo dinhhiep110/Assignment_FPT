@@ -24,7 +24,7 @@ public class DBContext {
         try {
             String user = "duyhiep";
             String password = "12345";
-            String url = "jdbc:sqlserver://DESKTOP-VPGGRSG\\SQLEXPRESS:1433;databaseName=JDBCTest";
+            String url = "jdbc:sqlserver://DESKTOP-VPGGRSG\\SQLEXPRESS:1433;databaseName=BasketballBooking";
             
             //First load microsoft jdbc driver from library
             //register this driver

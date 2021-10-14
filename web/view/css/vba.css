@@ -1,0 +1,1259 @@
+@font-face {
+  font-family: "SVN-Agency FB";
+  src: url("../../font/SVN-Agency FB bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SVN-Agency FB";
+  src: url("../../font/SVN-Agency FB bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../../font/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*$widthtitle: 130px;*/
+a.white-color {
+  color: #d1d2d4;
+  border: 2px solid #d1d2d4;
+}
+
+.white-color {
+  color: #d1d2d4;
+}
+
+a.blue-color {
+  color: #134579;
+  border: 2px solid #134579;
+}
+
+.blue-color {
+  color: #134579;
+}
+
+a.light-blue-color {
+  color: #125fa8;
+  border: 2px solid #125fa8;
+}
+
+.light-blue-color {
+  color: #125fa8;
+}
+
+a.orange-color {
+  color: #EF8122;
+  border: 2px solid #EF8122;
+}
+
+.orange-color {
+  color: #EF8122;
+}
+
+a.purple-color {
+  color: #9161EC;
+  border: 2px solid #9161EC;
+}
+
+.purple-color {
+  color: #9161EC;
+}
+
+a.dark-red-color {
+  color: #7c0e0d;
+  border: 2px solid #7c0e0d;
+}
+
+.dark-red-color {
+  color: #7c0e0d;
+}
+
+a.red-color {
+  color: #D13138;
+  border: 2px solid #D13138;
+}
+
+.red-color {
+  color: #D13138;
+}
+
+a.green-color {
+  color: #1EA72D;
+  border: 2px solid #1EA72D;
+}
+
+.green-color {
+  color: #1EA72D;
+}
+
+a.yellow-color {
+  color: #d8b921;
+  border: 2px solid #d8b921;
+}
+
+.yellow-color {
+  color: #d8b921;
+}
+
+a.yellow-dark-color {
+  color: #f89c1c;
+  border: 2px solid #f89c1c;
+}
+
+.yellow-dark-color {
+  color: #f89c1c;
+}
+
+.bg-orange {
+  background-color: #EF8122;
+}
+
+.bg-purple {
+  background-color: #520662;
+}
+
+.bg-red {
+  background-color: #FF0000;
+}
+
+.bg-dark-red {
+  background-color: #7c0e0d;
+}
+
+.bg-blue {
+  background-color: #045B95;
+}
+
+.bg-green {
+  background-color: #025B02;
+}
+
+.bg-yellow {
+  background-color: #FF7900;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bor-blue {
+  border-top-color: #005688;
+}
+
+.bor-yellow {
+  border-top-color: #FFF200;
+}
+
+.bor-purple {
+  border-top-color: #502D7F;
+}
+
+.bor-white {
+  border-top-color: #fff;
+}
+
+.bor-organe {
+  border-top-color: #DE6C27;
+}
+
+.text-blue {
+  color: #005688;
+}
+
+.text-yellow {
+  color: #FFF200;
+}
+
+.text-purple {
+  color: #502D7F;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-organe {
+  color: #DE6C27;
+}
+
+.bg-tl-blue {
+  background-color: #005688;
+}
+
+.bg-tl-yellow {
+  background-color: #FFF200;
+}
+
+.bg-tl-purple {
+  background-color: #502D7F;
+}
+
+.bg-tl-white {
+  background-color: #fff;
+}
+
+.bg-tl-organe {
+  background-color: #DE6C27;
+}
+
+/*$widthtitle: (vbaTitle: 130px, teamTitle: 300px, ticketSeasonTile: 130px, ticketMatchtitle: 130px, scheduleTitle: 130px, vbaLogoTitle: 90px);*/
+.title-bl {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.title-bl .about-title {
+  padding: 10px 20px;
+  position: absolute;
+  /*width: $widthtitle;*/
+  top: -50px;
+  font-family: "SVN-Agency FB";
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  left: 50%;
+  -o-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.title-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-title-sp {
+  top: -30px;
+  width: 100%;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+img {
+  /*width: 100%;*/
+}
+
+.pl-pr-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-org {
+  color: #f8cc00;
+}
+
+.text-black {
+  color: #000;
+}
+
+.mg-16 {
+  margin: 0 16px;
+}
+
+.pd-top-75 {
+  padding-top: 75px;
+}
+
+.pd-16 {
+  padding: 0 16px;
+}
+
+.pd-8 {
+  padding: 0 8px;
+}
+
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.bor-top {
+  border-top-width: 6px;
+  border-top-style: solid;
+}
+
+.inline-bl {
+  display: inline-block;
+}
+
+.text-orange {
+  color: #f28d20;
+}
+
+.title-sp {
+  overflow: hidden;
+  height: 6px;
+  display: block;
+}
+
+.book-now {
+  background-color: #000;
+  padding: 6px 0;
+  width: 120px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 0 0 4px #000;
+  font-size: 22px;
+  display: inline-block;
+  font-weight: bold;
+  font-family: "SVN-Agency FB";
+}
+
+.book-now:hover {
+  background-color: #000;
+}
+
+.book-now:focus {
+  background-color: #000;
+  text-decoration: none;
+  color: #8CB53B;
+}
+
+.book-now.btn-hcm {
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.book-now.small {
+  padding: 2px 0;
+  width: 88px;
+  font-size: 15px;
+}
+
+.book-now.lg {
+  padding: 18px 0;
+  width: 194px;
+  font-size: 35px;
+}
+
+.btn-sec {
+  position: absolute;
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+  right: 0;
+  left: 50%;
+  -o-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.about-vba {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.67;
+  text-align: justify;
+  color: #262626;
+}
+
+.sec1 {
+  cursor: -webkit-grab;
+}
+
+.sec2 {
+
+  background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 0;
+}
+
+.sec2 .slogan {
+  font-family: "SVN-Agency FB";
+  font-size: 23.9px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.sec2 .team-bl {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 90px;
+  outline: none;
+  position: relative;
+}
+
+.sec2 .about-vba {
+  padding: 0 15px;
+  color: #fff;
+}
+
+.sec2 img.about-title {
+  top: -50px;
+  height: 100px;
+}
+
+.sec2 .abs {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.sec2 .abs a{
+    font-size: 100%;
+    padding: 5% 5%;
+    
+}
+.sec3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+.sec4 .text-orange {
+  font-size: 48.6px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: justify;
+  font-family: "SVN-Agency FB";
+}
+
+.sec4 .text-list {
+  font-family: "SVN-Agency FB";
+  font-size: 30px;
+  margin-right: 14px;
+  margin-top: -10px;
+}
+
+.sec4 .team-symbol {
+  /*width: 80%;*/
+}
+
+.sec3-sec4 {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-position-x: 0%, 250%;
+  background-position-y: 60%, 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec5 {
+  color: #000;
+  padding-bottom: 50px;
+  /*padding: 75px 30px 48px;*/
+}
+
+.sec5 .extra-items {
+  padding: 8px 3px 10px;
+  width: 194px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.sec5 p {
+  font-family: "SVN-Agency FB";
+}
+
+.sec5 .type-ticket {
+  font-size: 25px;
+}
+
+.sec5 .title-bl {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.sec5 .btn-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sec6 .sub-title {
+  font-family: "SVN-Agency FB";
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.sec7 .right-box {
+  margin-left: 30px;
+}
+
+a:active, a:visited, a:hover, a:focus {
+  text-decoration: none;
+}
+
+/*style for team*/
+.box-lg {
+  width: 95px;
+  height: 95px;
+  float: left;
+}
+
+.box-sm {
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+
+.box-xs {
+  width: 26px;
+  height: 26px;
+  float: left;
+}
+
+.item-ticket {
+  margin-bottom: 20px;
+}
+
+.item-ticket p {
+  margin-bottom: 0;
+}
+
+.item-ticket .right-box {
+  margin-left: 118px;
+  font-family: "SVN-Agency FB";
+}
+
+.item-ticket .right-box .name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.item-ticket .right-box .price {
+  /*color: #502D7F;*/
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 48px;
+}
+
+.item-ticket .right-box .discount {
+  color: #949494;
+  font-size: 25px;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.item-ticket.item-ticket-sp {
+  font-weight: bold;
+  line-height: 1.15em;
+}
+
+.item-ticket.item-ticket-sp span {
+  font-family: "SVN-Agency FB";
+  font-size: 25px;
+}
+
+.schedule-tbl {
+  margin: 0 auto;
+  border-color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.schedule-tbl td, .schedule-tbl th {
+  border-bottom-color: transparent;
+  padding: 5px 20px;
+  text-align: center;
+  font-family: "SVN-Agency FB";
+  font-size: 25px;
+}
+
+.schedule-tbl th {
+  padding-top: 30px;
+}
+
+.schedule-tbl tr:last-child td {
+  padding-bottom: 30px;
+}
+
+.schedule-tbl .schedule-logo img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.schedule-tbl .book-now.disable {
+  color: #b7b7b7 !important;
+  border: 2px solid #b7b7b7 !important;
+  pointer-events: none;
+}
+
+.css-serial {
+  counter-reset: serial-number;
+  /* Set the serial number counter to 0 */
+}
+
+.css-serial tr:not(:nth-child(2)) td:first-child:before {
+  counter-increment: serial-number;
+  /* Increment the serial number counter */
+  content: counter(serial-number);
+  /* Display the counter */
+}
+
+.map-match p {
+  font-family: "SVN-Agency FB";
+  font-size: 25px;
+  margin: 30px auto 40px;
+}
+
+.map-match img {
+  max-width: 100%;
+}
+
+.schedule-ticket p {
+  font-family: "SVN-Agency FB";
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.home-schedule .schedule-tbl tbody {
+  border: 2px solid #fff;
+}
+
+.home-schedule .schedule-tbl th {
+  color: #31ABDE;
+}
+
+.home-schedule .schedule-tbl td {
+  color: #fff;
+  font-weight: bold;
+  /*padding: 5px 25px;*/
+}
+
+.home-schedule .schedule-tbl td .team-win {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.home-schedule .schedule-tbl td .final-game {
+  font-size: 28px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin: 10px auto;
+}
+
+.home-schedule .schedule-tbl td .book-now.small {
+  padding: 4px 0;
+  width: 100px;
+  font-size: 18px;
+}
+
+.home-schedule .schedule-tbl .schedule-logo {
+  text-align: center;
+}
+
+.home-schedule .schedule-tbl .booking-blue-color {
+  color: #32ABE5;
+  border: 2px solid #32ABE5;
+}
+
+/*custom slick*/
+.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-slide {
+  position: relative;
+}
+
+
+footer, footer p {
+    font-size: 100%;
+}
+
+@media screen and (max-width: 452px) {
+  .title-bl {
+    margin-bottom: 110px;
+  }
+  .title-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .book-now {
+    padding: 3px 10px;
+    font-size: 18px;
+  }
+  .sec2 .abs {
+    /*left: calc(50% - 51px);*/
+  }
+  .schedule-tbl {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+  .schedule-tbl td, .schedule-tbl th {
+    border-bottom-color: #fff;
+    padding: 15px 4px;
+    font-size: 16px;
+  }
+  .schedule-tbl tr td:last-child {
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "SVN-Agency FB";
+    font-size: 20px;
+  }
+  .schedule-tbl .schedule-logo img {
+    max-width: 75%;
+    margin-right: 0;
+  }
+  .schedule-tbl .book-now.small {
+    font-size: 20px;
+    padding: 4px 6px;
+    vertical-align: -webkit-baseline-middle;
+  }
+}
+
+.navbar {
+  margin-bottom: auto;
+  background-color: #031E39;
+  font-family: "SVN-Agency FB";
+  font-weight: bold;
+  border: none;
+}
+
+.navbar li a {
+  color: white !important;
+  font-family: "SVN-Agency FB";
+  font-size: 16px;
+}
+
+.navbar ul {
+  margin: auto;
+}
+
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+  background-color: #031E39;
+}
+
+.m-header {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  position: relative;
+  font-weight: bold;
+  margin: 8px 0px;
+  padding: 5px 10px;
+  left: 50%;
+  margin-left: -24px;
+}
+
+.rotate {
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  -moz-transition: -moz-transform 0.8s ease-in-out;
+  -o-transition: -o-transform 0.8s ease-in-out;
+  -ms-transition: -ms-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.info {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: #fff;
+}
+
+.info .sec6 .right-box {
+  margin-left: 66px;
+}
+
+.info .retail-price {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.info .retail-price p {
+  font-family: "SVN-Agency FB";
+  margin-bottom: 0;
+  line-height: 1.4em;
+  font-size: 20px;
+}
+
+.note-ticket .icon:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: 0 10px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.note-ticket h3 {
+  color: #fff;
+  display: inline-block;
+  padding: 4px 24px;
+  font-size: 25px;
+  font-family: "SVN-Agency FB";
+}
+
+.note-ticket p {
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .title-bl .about-title {
+    top: -40px;
+  }
+  .pd-8 {
+    padding: initial;
+  }
+  .inline-bl {
+    display: initial;
+  }
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .sec2 {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  .sec2 .slogan {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 26px;
+  }
+  .sec2 .team-bl {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    width: 20%;
+  }
+  .sec2 .team-bl:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 2px;
+    height: 50px;
+    background: #2b98df;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2b98df, rgba(0, 49, 255, 0.44));
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2b98df, rgba(0, 49, 255, 0.44));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2b98df, rgba(0, 49, 255, 0.44));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2b98df, rgba(0, 49, 255, 0.44));
+    /* Standard syntax */
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  .sec2 .team-bl:last-child:after {
+    content: initial;
+  }
+  .sec2 .team-bl .abs {
+    bottom: -55%;
+  }
+  .sec2 .book-now {
+    font-size: 16px;
+    width: 80px;
+    padding: 0;
+  }
+  .sec3-sec4 {
+    background-image: url("/static-page/landingpages/vba/images/bg-main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+  }
+  .sec3-sec4 .map {
+    margin-left: 0;
+  }
+
+  .sec4 .text-orange {
+    font-size: 80px;
+  }
+  .sec4 .text-list {
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    letter-spacing: 2px;
+  }
+  .sec5 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sec5 .title-bl {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .sec5 .btn-wrapper {
+    text-align: left;
+  }
+  .sec6 .retail-price .col-sm-2 {
+    width: 20%;
+  }
+  .item-1 {
+    top: 7%;
+    right: 14%;
+  }
+  .item-2 {
+    top: 190px;
+    right: 50px;
+  }
+  .item-3 {
+    bottom: 60px;
+    right: 25%;
+  }
+  .main-nav {
+    /*height: 102px;*/
+    background-color: #031E39;
+  }
+  .main-nav > .container {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+  }
+  .main-nav .menu--item1 {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    /*display: inline-block;*/
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'SVN AgencyFB';
+    border: 2px solid #BCB4B2;
+    padding: 40px;
+    border-top: none;
+    border-bottom: none;
+    border: none;
+    border-right: 2px solid #BCB4B2;
+    padding: 40px;
+    width: 20%;
+    font-size: 20px;
+    -ms-transform: skewX(-40deg);
+    -webkit-transform: skewX(-40deg);
+    transform: skewX(-40deg);
+  }
+  .main-nav .menu--item1:first-child {
+    /*border-right: none;*/
+    border-left: 2px solid #BCB4B2;
+  }
+  .main-nav .menu__text {
+    -ms-transform: skewX(40deg);
+    -webkit-transform: skewX(40deg);
+    transform: skewX(40deg);
+    display: inline-block;
+    color: white;
+    font-family: "SVN-Agency FB";
+  }
+  .info {
+    /*padding-top: 30px;*/
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 0;
+  }
+  .info .retail-price {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .info .retail-price p {
+    /*margin-bottom: 0;*/
+  }
+  .btn-sec {
+    bottom: 30px;
+    padding-left: 30px;
+    width: 50%;
+    text-align: left;
+  }
+  .book-now {
+    padding: 15px 10px;
+  }
+  .book-now.btn-hcm {
+    padding: 17px 20px;
+    font-size: 28px;
+    width: 220px;
+  }
+  .slick-slide a.book-now:first-child {
+    margin-right: 3%;
+  }
+  
+  .tkb-footer .office-block>.w-100 {
+    border-right: none;
+    margin-left: 10%;
+    border-left: white solid 1px;
+    float: none;
+    padding-left: 5%;
+  }
+ 
+}
+
+@media (min-width: 992px) {
+  .home-schedule .schedule-tbl td {
+    padding: 5px 18px;
+  }
+  .home-schedule .schedule-tbl .schedule-logo {
+    text-align: left;
+  }
+  .home-schedule .schedule-tbl .schedule-logo img {
+    margin-right: 40px;
+  }
+  .about-title {
+    font-size: 50px;
+    margin-top: 5px;
+    /*width: 180px;*/
+    /*left: calc(50% - 90px);*/
+  }
+  .title-bl .about-title-sp {
+    top: -30px;
+    width: 100%;
+  }
+  .mg-16 {
+    margin: auto;
+  }
+  .item-2 {
+    right: initial;
+    top: 30%;
+  }
+  .item-3 {
+    /*bottom: 10%;*/
+  }
+  .sec2 .slogan {
+    font-size: 34px;
+  }
+  .sec3 {
+    padding: 75px 30px 48px;
+  }
+  .sec3 .about-vba {
+    font-size: 18px;
+  }
+  .sec4 .text-orange {
+    font-size: 110px;
+  }
+  .sec4 .text-list {
+    font-size: 60px;
+  }
+  .sec3-sec4 .map {
+    margin-left: 6%;
+  }
+  .main-nav {
+    /*height: 122px;*/
+  }
+  .main-nav > .container {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .note-ticket {
+    position: relative;
+  }
+  .note-ticket .book-now {
+    position: absolute;
+    top: 16%;
+    right: 20%;
+  }
+  .main-nav {
+    /*height: 104px;*/
+  }
+  .main-nav > .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .sec2 .team-bl .abs {
+    bottom: -45%;
+  }
+  .sec2 .book-now {
+    font-size: 20px;
+    width: 120px;
+    padding: 5px 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item-2 {
+    right: 25%;
+  }
+  .sec2 .slogan {
+    font-size: 42px;
+  }
+  .home-schedule .schedule-tbl td {
+    padding: 5px 41px;
+  }
+  .home-schedule .schedule-tbl .schedule-logo {
+    text-align: left;
+  }
+  .sec3-sec4 {
+    background-size: cover;
+    background-position-x: -4%, 250%;
+    background-position-y: 60%, 80%;
+  }
+  .main-nav > .container {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .sec2 .team-bl .abs {
+    bottom: -35%;
+  }
+  .sec4 {
+    background-size: 102%;
+    min-height: 350px;
+  }
+  .sec6 .retail-price > div {
+    width: 20%;
+  }
+  .section-banner-middle {
+    min-height: 550px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .sec3-sec4 {
+    background-position-x: 0%, 210%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .sec3-sec4 {
+    background-position-x: 0%, 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-schedule .schedule-tbl td, .home-schedule .schedule-tbl p {
+    line-height: 1.3em;
+  }
+  .home-schedule .schedule-tbl .schedule-logo img {
+    margin: 10px auto;
+    display: block;
+  }
+  .home-schedule .schedule-tbl td .team-win {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .book-now.lg {
+    margin: 30px auto 0;
+    display: block;
+  }
+  .home-schedule .schedule-tbl td {
+    padding: 15px 0;
+  }
+  .home-schedule .schedule-tbl td .book-now.small {
+    padding: 2px 0;
+    width: 80px;
+    font-size: 15px;
+  }
+  .home-schedule .schedule-tbl td:last-child {
+    padding: 15px 10px;
+  }
+  .sec2 .container {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .info p, .info span, .info h1, .info h3 {
+    line-height: 1.2em;
+  }
+  .sec1 .slider-for {
+    position: relative;
+  }
+  .sec5 .type-ticket.padding-left-0 {
+    padding-left: 15px;
+  }
+  .sec5 .type-ticket.padding-right-0 {
+    padding-right: 15px;
+  }
+  .sec5 .note-ticket.padding-left-0 {
+    padding-left: 15px;
+  }
+  .teams-row .team-bl:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media (max-width: 452px) {
+  .home-schedule .schedule-tbl td {
+    padding: 15px 0;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .title-bl .about-title-sp {
+    top: -63px;
+    width: 100%;
+  }
+  .title-bl .about-title {
+    top: -54px !important;
+  }
+  .sec1 .btn-sec {
+    bottom: 3px;
+    padding-left: 0;
+    width: 58%;
+    left: 40%;
+  }
+  .sec1 .book-now.btn-hcm {
+    padding: 10px;
+    width: 204px;
+  }
+}
+
+.text-green {
+  color: #134479;
+}
+
+.text-red {
+  color: #D23139;
+}
+
+.text-light-blue {
+  color: #125fa8;
+}
+
+.border-blue {
+  border-color: #134479;
+}
+
+@media (max-width: 767px) {
+  .btn-sec {
+    display: none;
+  }
+  .title-bl .about-title {
+    display: inline-table;
+  }
+}
