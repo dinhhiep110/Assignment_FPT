@@ -15,30 +15,26 @@ public class User {
     private int id;;
     private String username;
     private String password;
-    private String firstname;
-    private String lastname;
+    private String name;
     private String email;
     private Date dob;
     private boolean gender;
     private String phone;
-    private String city;
     private String address;
     private boolean isAdmin;
 
     public User() {
     }
 
-    public User(int id, String username, String password, String firstname, String lastname, String email, Date dob, boolean gender, String phone, String city, String address, Boolean isAdmin) {
+    public User(int id, String username, String password, String name,String email, Date dob, boolean gender, String phone, String address, Boolean isAdmin) {
         this.id = id;
         this.username = username;
         this.password = password;
-        this.firstname = firstname;
-        this.lastname = lastname;
+        this.name = name;
         this.email = email;
         this.dob = dob;
         this.gender = gender;
         this.phone = phone;
-        this.city = city;
         this.address = address;
         this.isAdmin = isAdmin;
     }
@@ -67,20 +63,12 @@ public class User {
         this.password = password;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -114,15 +102,7 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
+    
     public String getAddress() {
         return address;
     }

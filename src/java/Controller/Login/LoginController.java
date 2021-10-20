@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controller;
+package Controller.Login;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.sql.Date;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,19 +19,10 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginController extends HttpServlet {
 
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Handles the HTTP <code>GET</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.getRequestDispatcher("/authentication/login.jsp").forward(request, response);
+        response.sendRedirect("authentication/jsp/login.jsp");
     }
 
     /**
@@ -45,8 +36,23 @@ public class LoginController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        String user = request.getParameter("user");
+        String pass = request.getParameter("pass");
+        boolean isChecked = request.getParameter("isChecked").equals("check");
+//        String name = request.getParameter("name");
+//        String username = request.getParameter("username");
+//        String password = request.getParameter("password");
+//        String repeatpass = request.getParameter("repeatpass");
+//        boolean gender = request.getParameter("gender").equals("male");
+//        Date dob = Date.valueOf(request.getParameter("dob"));
+//        String email = request.getParameter("email");
+//        String phone = request.getParameter("phone");
+//        String address = request.getParameter("address");
         
-    }
+        if (user != null) {
+            
+        }
+   }
 
     /**
      * Returns a short description of the servlet.

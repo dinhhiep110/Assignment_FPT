@@ -44,10 +44,7 @@
 
                     <td class="header-right text-right ">
                         <div class="inline-block">
-                            <a href="" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Login</a>
-                        </div>
-                        <div class="inline-block">
-                            <a href="" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Register</a>
+                            <a href="../../login" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Sign In</a>
                         </div>
                     </td>
                 </tr>
@@ -203,7 +200,7 @@
                                                 <i class="ello-location-3"></i>
                                             </td>
                                             <td>
-                                                TP. Hồ Chí Minh: 52 Út Tịch, Phường 4, Quận Tân Bình
+                                                Đại Học FPT Hà Nội
                                             </td>
                                         </tr>
                                         <tr>
