@@ -20,12 +20,12 @@ public class LoginDBContext extends DBContext{
     public User getUser(String user, String pass){
         try {
             String sql = "SELECT [id],[username],[password],[name] ,[email] \n" +
-                    ",[dob],[gender],[phone],[city],[address],[isAdmin]\n" +
-                    "FROM [User] where username =? and password = ?";
+                    ",[dob],[gender],[phone],[address],[isAdmin]\n" +
+                    "FROM [User] where username = ? and password = ?";
             
             PreparedStatement stm = connection.prepareStatement(sql);
             stm.setString(1, user);
-            stm.setString(2, user);
+            stm.setString(2, pass);
             ResultSet rs = stm.executeQuery();
             if(rs.next()){
                 User u = new User();
@@ -45,5 +45,26 @@ public class LoginDBContext extends DBContext{
             Logger.getLogger(LoginDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
+    }
+    
+    public void insertUser(User u){
+        try {
+            String sql = "INSERT INTO [User]\n" +
+                    "([username],[password],[name],[email],[dob],[gender],[phone],[address],[isAdmin])\n" +
+                    "     VALUES (?,?,?,?,?,?,?,?,?)";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setString(1, u.getUsername());
+            stm.setString(2, u.getPassword());
+            stm.setString(3, u.getName());
+            stm.setString(4, u.getEmail());
+            stm.setDate(5, u.getDob());
+            stm.setBoolean(6, u.isGender());
+            stm.setString(7, u.getPhone());
+            stm.setString(8, u.getAddress());
+            stm.setBoolean(9, u.getIsAdmin());
+            stm.executeUpdate();
+        } catch (SQLException ex) {
+            Logger.getLogger(LoginDBContext.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

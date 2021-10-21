@@ -32,7 +32,9 @@ var errorAddress = document.querySelector('.error-address');
 let patternUsername = "^[a-zA-Z][a-z0-9_-]{5,15}$";
 let patternName = "^[A-Z a-z]+$";
 let patternPassWord = "^[A-Za-z0-9_@]{8,16}$";
-        
+let patternEmail = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"; 
+let patternPhone = "^09[0-9]{8}$";
+let patternAddress = "^[A-Z0-9 a-z,/_-]+$";
 
 function ValidateSignin() {
     //checkUserName
@@ -96,7 +98,7 @@ function ValidateSignup() {
     else if(!username.value.match(patternUsername)){
         errorUserName.innerHTML = "Username accepts 5 to 15 characters with any lower case character and digit";
         errorUserName.style.display = "block";   
-        user.focus();
+        username.focus();
         return false;
     }
     else{
@@ -110,7 +112,8 @@ function ValidateSignup() {
         return false;
     }
     if(!password.value.match(patternPassWord)){
-        errorPassWord.style.display = "Password must contain 8 to 16 characters";
+        errorPassWord.innerHTML = "Password must contain 8 to 16 characters";
+        errorPassWord.style.display = "block";
         password.focus();
         return false;
     }
@@ -119,19 +122,68 @@ function ValidateSignup() {
     }
     
     //checkRepeatPass
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+    if(repeatpass.value === ""){
+        errorRepeatPass.style.display = "block";
+        repeatpass.focus();
+        return false;
+    }
+    else if(repeatpass.value !== password.value){
+        errorRepeatPass.innerHTML = "Repeat Password doesn't match";
+        errorRepeatPass.style.display = "block";
+        repeatpass.focus();
+        return false;
+    }
+    else{
+        errorRepeatPass.style.display = "none";
+    }
+    
+    //checkEmail
+    if(email.value === ""){
+        errorEmail.style.display = "block";
+        email.focus();
+        return false;
+    }
+    if(!email.value.match(patternEmail)){
+        errorEmail.innerHTML = "Email is invalid";
+        errorEmail.style.display = "block";
+        email.focus();
+        return false;
+    }
+    else{
+        errorEmail.style.display = "none";
+    }
+    
+    //check Phone
+    if(phone.value === ""){
+        errorPhone.style.display = "block";
+        phone.focus();
+        return false;
+    }
+    if(!phone.value.match(patternPhone)){
+        errorPhone.innerHTML = "Phone is invalid";
+        errorPhone.style.display = "block";
+        phone.focus();
+        return false;
+    }
+    else{
+        errorPhone.style.display = "none";
+    }
+    
+    
+    //check Address
+    if(address.value === ""){
+        errorAddress.style.display = "block";
+        address.focus();
+        return false;
+    }
+    if(!errorAddress.value.match(patternAddress)){
+        errorAddress.innerHTML = "Adress is invalid";
+        errorAddress.style.display = "block";
+        address.focus();
+        return false;
+    }
+    else{
+        errorAddress.style.display = "none";
+        return true;
+    }
+}       

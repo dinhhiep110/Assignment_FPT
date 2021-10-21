@@ -4,9 +4,10 @@
     Author     : Duy Hiep
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Login Page</title>  
@@ -29,7 +30,7 @@
                             Username can't be blank                          
                         </div>
                     </div> 
-
+                    
                     <div class="group pass">
                         <label for="pass" class="label">Password</label>
                         <input id="pass" name="pass" type="password" class="input" >
@@ -46,6 +47,11 @@
                     <div class="group">
                         <input type="submit" class="button" value="Sign In" onclick="return ValidateSignin()">
                     </div>
+                    <c:if test="${sessionScope.error != null}">
+                        <script>
+                            alert("Username or Password is incorect");
+                        </script>
+                    </c:if>
                     <div class="hr"></div>
                     <div class="foot-lnk">
                         <label for="tab-2">Don't Have Account?</label>

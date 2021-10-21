@@ -5,12 +5,15 @@
  */
 package Controller.Login;
 
+import Dal.LoginDBContext;
+import Model.User;
 import java.io.IOException;
 import java.sql.Date;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 /**
  *
@@ -36,22 +39,38 @@ public class LoginController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        LoginDBContext ldb = new LoginDBContext();
         String user = request.getParameter("user");
         String pass = request.getParameter("pass");
-        boolean isChecked = request.getParameter("isChecked").equals("check");
-//        String name = request.getParameter("name");
-//        String username = request.getParameter("username");
-//        String password = request.getParameter("password");
-//        String repeatpass = request.getParameter("repeatpass");
-//        boolean gender = request.getParameter("gender").equals("male");
-//        Date dob = Date.valueOf(request.getParameter("dob"));
-//        String email = request.getParameter("email");
-//        String phone = request.getParameter("phone");
-//        String address = request.getParameter("address");
-        
-        if (user != null) {
-            
+        User u;
+        if(user != null){
+            u = ldb.getUser(user, pass);
+        }    
+        else{ 
+            User ur = new User();
+            ur.setName(request.getParameter("name"));
+            ur.setUsername(request.getParameter("username"));
+            ur.setPassword(request.getParameter("password"));
+            ur.setGender(request.getParameter("gender").equals("male"));
+            ur.setDob(Date.valueOf(request.getParameter("dob"))); //avoid illegal argument exception
+            ur.setEmail(request.getParameter("email"));
+            ur.setPhone(request.getParameter("phone"));
+            ur.setAddress(request.getParameter("address"));
+            ur.setIsAdmin(false);
+            ldb.insertUser(ur);
+            u = ldb.getUser(ur.getUsername(), ur.getPassword());
         }
+     
+        request.getSession().setAttribute("User", u);
+        if(u != null){
+            response.sendRedirect("home");      
+        }
+        else{
+            String error = "Username or Password is incorect";
+            request.getSession().setAttribute("error", error);
+            response.sendRedirect("login");
+        }
+      
    }
 
     /**

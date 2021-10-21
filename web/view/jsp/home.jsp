@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en-vi">
 
@@ -20,6 +21,7 @@
     <meta name="data-showing-id" content="42065" />
     <!-- Bootstrap Core CSS -->
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>VBA - Giải Bóng Rổ Chuyên Nghiệp Việt Nam 2018</title>
 
@@ -41,12 +43,26 @@
                             <img class="tkb-logo" src="https://static.tkbcdn.com/images-v2/ticketbox-small.png?v3" alt="ticketbox" />
                         </a>
                     </td>
-
-                    <td class="header-right text-right ">
-                        <div class="inline-block">
-                            <a href="../../login" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Sign In</a>
-                        </div>
-                    </td>
+                    <c:if test="${sessionScope.User == null}">
+                        <td class="header-right text-right ">
+                            <div class="inline-block">
+                                <a href="../../login" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Sign In</a>
+                            </div>
+                        </td>
+                    </c:if>
+                    <c:if test="${sessionScope.User != null}">
+                        <td class="header-right text-right ">
+                            <div class="inline-block">
+                                <button class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Hello, ${sessionScope.User.name} <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                </div>
+                              </div> 
+                        </td>
+                    </c:if>
                 </tr>
             </tbody>
         </table>

@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controller;
+package Controller.Login;
 
+import Model.User;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -15,21 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Duy Hiep
  */
-public class HomeController extends HttpServlet {
-
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        response.sendRedirect("view/jsp/home.jsp");
-    }
+public abstract class BaseRequiredAuthController extends HttpServlet {
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
@@ -40,11 +27,28 @@ public class HomeController extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
+    private boolean isAuthenticated(HttpServletRequest request){
+        User user = (User) request.getSession().getAttribute("User");
+        return user != null;
+    }
+    
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        
+        if (isAuthenticated(request)) {
+            proccessGet(request, response);
+        }
+        else{
+            response.sendRedirect("login");
+        }
     }
+    
+    protected abstract void proccessGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException;
+    
+    protected abstract void proccessPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException;
 
     /**
      * Handles the HTTP <code>POST</code> method.
@@ -57,7 +61,12 @@ public class HomeController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        if (isAuthenticated(request)) {
+            proccessPost(request, response);
+        }
+         else{
+            response.sendRedirect("login");
+        }
     }
 
     /**
