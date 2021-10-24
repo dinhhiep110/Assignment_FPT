@@ -11,16 +11,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Login Page</title>  
-    <link href="../css/login.css" rel="stylesheet" type="text/css"/>
+    <link href="authentication/css/login.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-
 </head>
 <body>
     <div class="login-wrap">
 	<div class="login-html">
             <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
             <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-            <form class="login-form" name="login-form" action="../../login" method="Post">
+            <form class="login-form" name="login-form" action="login" method="Post">
                 <div class="sign-in-htm">
                     <div class="group user">
                         <label for="user" class="label">Username</label>
@@ -46,12 +45,7 @@
                     </div>
                     <div class="group">
                         <input type="submit" class="button" value="Sign In" onclick="return ValidateSignin()">
-                    </div>
-                    <c:if test="${sessionScope.error != null}">
-                        <script>
-                            alert("Username or Password is incorect");
-                        </script>
-                    </c:if>
+                    </div>            
                     <div class="hr"></div>
                     <div class="foot-lnk">
                         <label for="tab-2">Don't Have Account?</label>
@@ -142,12 +136,18 @@
                     </div>
                     <div class="hr"></div>
                     <div class="foot-lnk">
-                            <label for="tab-1"><a>Already Member?</a>
+                        <label for="tab-1">Already Member?</label>
                     </div>
                 </div>
             </form>
 	</div>
 </div> 
-    <script src="../js/login.js"></script>
+    
+    <script src="authentication/js/login.js"></script>
 </body>
+<c:if test="${requestScope.error != null}">
+    <script>
+        alert("Username or Password is incorect");
+    </script>
+</c:if>
 </html>

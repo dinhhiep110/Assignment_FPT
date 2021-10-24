@@ -6,6 +6,7 @@
 package Dal;
 
 import Model.User;
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -16,7 +17,35 @@ import java.util.logging.Logger;
  *
  * @author Duy Hiep
  */
-public class LoginDBContext extends DBContext{
+public class UserDBContext extends DBContext {
+    public void updateUserInfor(int id,String username,String name,String email,Date dob,boolean gender,String address,String phone){
+        try {
+            String sql = "UPDATE [User]\n" +
+                    "   SET [username] = ?\n" +
+                    "      ,[name] = ?\n" +
+                    "      ,[email] = ?\n" +
+                    "      ,[dob] = ?\n" +
+                    "      ,[gender] = ?\n" +
+                    "      ,[phone] = ?\n" +
+                    "      ,[address] = ?\n" +
+                    "      ,[isAdmin] = ?\n" +
+                    " WHERE id = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setString(1, username);
+            stm.setString(2, name);
+            stm.setString(3, email);
+            stm.setDate(4, dob);
+            stm.setBoolean(5, gender);
+            stm.setString(6, phone);
+            stm.setString(7, address);
+            stm.setBoolean(8, false);
+            stm.setInt(9, id);
+            stm.executeUpdate(); 
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDBContext.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
     public User getUser(String user, String pass){
         try {
             String sql = "SELECT [id],[username],[password],[name] ,[email] \n" +
@@ -45,43 +74,5 @@ public class LoginDBContext extends DBContext{
             Logger.getLogger(LoginDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
-    }
-    
-    public void insertUser(User u){
-        try {
-            String sql = "INSERT INTO [User]\n" +
-                "           ([username]\n" +
-                "           ,[password]\n" +
-                "           ,[name]\n" +
-                "           ,[email]\n" +
-                "           ,[dob]\n" +
-                "           ,[gender]\n" +
-                "           ,[phone]\n" +
-                "           ,[address]\n" +
-                "           ,[isAdmin])\n" +
-                "     VALUES\n" +
-                "           (?\n" +
-                "           ,?\n" +
-                "           ,?\n" +
-                "           ,?\n" +
-                "           ,?\n" +
-                "           ,?\n" +
-                "           ,?\n" +
-                "           ,?\n" +
-                "           ,?)";
-            PreparedStatement stm = connection.prepareStatement(sql);
-            stm.setString(1, u.getUsername());
-            stm.setString(2, u.getPassword());
-            stm.setString(3, u.getName());
-            stm.setString(4, u.getEmail());
-            stm.setDate(5, u.getDob());
-            stm.setBoolean(6, u.isGender());
-            stm.setString(7, u.getPhone());
-            stm.setString(8, u.getAddress());
-            stm.setBoolean(9, u.getIsAdmin());
-            stm.executeUpdate();
-        } catch (SQLException ex) {
-            Logger.getLogger(LoginDBContext.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }
 }

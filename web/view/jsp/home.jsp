@@ -26,8 +26,8 @@
     <title>VBA - Giải Bóng Rổ Chuyên Nghiệp Việt Nam 2018</title>
 
 
-    <link href="../css/vba.css" rel="stylesheet" />
-    <link href="../css/vbaHome.css" rel="stylesheet">
+    <link href="view/css/vba.css" rel="stylesheet" />
+    <link href="view/css/vbaHome.css" rel="stylesheet">
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -46,21 +46,20 @@
                     <c:if test="${sessionScope.User == null}">
                         <td class="header-right text-right ">
                             <div class="inline-block">
-                                <a href="../../login" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Sign In</a>
+                                <a href="login" class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Sign In</a>
                             </div>
                         </td>
                     </c:if>
                     <c:if test="${sessionScope.User != null}">
-                        <td class="header-right text-right ">
-                            <div class="inline-block">
-                                <button class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">Hello, ${sessionScope.User.name} <i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="page-scroll btn btn-rounded tkb-bg-color text-shadow-2 font-800">
-                                  <a href="#">Link 1</a>
-                                  <a href="#">Link 2</a>
-                                  <a href="#">Link 3</a>
+                        <td class="header-right text-right">
+                            <div class="inline-block dropdown-navbar">
+                                <button class="page-scroll btn btn-rounded tkb-bg-color dropdown-btn" onclick="showDrop()">
+                                    Hello, ${sessionScope.User.name} <i class="fa fa-caret-down"></i> </button>
+                                <div class="dropdown-content" id="Dropdown">
+                                 <a href="user/myprofile"><i class="icon ello-vcard color-9"></i> My Profile</a>
+                                 <a href="logout"><i class="icon ello-logout color-9"></i>Log out</a>
                                 </div>
-                              </div> 
+                            </div> 
                         </td>
                     </c:if>
                 </tr>
@@ -110,8 +109,8 @@
 </div>
 <div class="container-fluid">
     <div class="row sec1">     
-        <img class="hidden-xs w-100" src="../../img/bacon.jpg" />
-        <img class="visible-xs w-100" src="../../img/moblie_bacon.jpg" />
+        <img class="hidden-xs w-100" src="img/bacon.jpg" />
+        <img class="visible-xs w-100" src="img/moblie_bacon.jpg" />
     </div>
     <div class="row sec2" id="booking">
         <div class="container pl-pr-0">
@@ -257,7 +256,23 @@
         </div>
     </footer>
     
-<script type="text/javascript" src="https://static.tkbcdn.com/static-page/js/vba.js?v=20215114.1051"></script>  
+    <script type="text/javascript" src="https://static.tkbcdn.com/static-page/js/vba.js?v=20215114.1051"></script>  
+    <script>
+        function showDrop() {
+            document.getElementById("Dropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+            if (!e.target.matches('.dropdown-btn')) {
+            var myDropdown = document.getElementById("Dropdown");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+            }
+        };
+    </script>
+    
 
 </body>
 </html>

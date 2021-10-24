@@ -25,7 +25,7 @@ public class LoginController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.sendRedirect("authentication/jsp/login.jsp");
+        request.getRequestDispatcher("authentication/jsp/login.jsp").forward(request, response);
     }
 
     /**
@@ -42,11 +42,11 @@ public class LoginController extends HttpServlet {
         LoginDBContext ldb = new LoginDBContext();
         String user = request.getParameter("user");
         String pass = request.getParameter("pass");
-        User u;
+        User u = null;
         if(user != null){
             u = ldb.getUser(user, pass);
         }    
-        else{ 
+        if(user == null || user.length() == 0){ 
             User ur = new User();
             ur.setName(request.getParameter("name"));
             ur.setUsername(request.getParameter("username"));
@@ -60,15 +60,14 @@ public class LoginController extends HttpServlet {
             ldb.insertUser(ur);
             u = ldb.getUser(ur.getUsername(), ur.getPassword());
         }
-     
         request.getSession().setAttribute("User", u);
         if(u != null){
-            response.sendRedirect("home");      
+            response.sendRedirect("home");
         }
         else{
             String error = "Username or Password is incorect";
-            request.getSession().setAttribute("error", error);
-            response.sendRedirect("login");
+            request.setAttribute("error", error);
+            request.getRequestDispatcher("authentication/jsp/login.jsp").forward(request, response);
         }
       
    }
