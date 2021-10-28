@@ -54,7 +54,8 @@
                         <td class="header-right text-right">
                             <div class="inline-block dropdown-navbar">
                                 <button class="page-scroll btn btn-rounded tkb-bg-color dropdown-btn" onclick="showDrop()">
-                                    Hello, ${sessionScope.User.name} <i class="fa fa-caret-down"></i> </button>
+                                    Hello, ${sessionScope.User.name}<c:if test="${sessionScope.User.isAdmin}"> (Admin)</c:if>
+                                    <i class="fa fa-caret-down"></i> </button>
                                 <div class="dropdown-content" id="Dropdown">
                                  <a href="user/myprofile"><i class="icon ello-vcard color-9"></i> My Profile</a>
                                  <a href="logout"><i class="icon ello-logout color-9"></i>Log out</a>
@@ -96,15 +97,25 @@
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#booking">Đặt vé</a>
-            </li>
+            </li> 
+            
+            
         </ul>
     </div>
     <!-- /.navbar-collapse -->
 </nav>
 <div class="main-nav hidden-xs">
     <div class="hidden-xs container ">
-        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Về VBA</a></div>
-        <div class="uppercase menu--item1"><a href="#booking" class="page-scroll menu__text">Đặt vé</a></div>
+        <c:if test="${!sessionScope.User.isAdmin || sessionScope.User eq null}">
+            <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Về VBA</a></div>
+            <div class="uppercase menu--item1"><a href="#booking" class="page-scroll menu__text">Đặt vé</a></div>
+        </c:if>
+        <c:if test="${sessionScope.User.isAdmin}">
+            <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">About VBA</a></div>
+            <div class="uppercase menu--item1"><a href="#booking" class="page-scroll menu__text">Team Schedule</a></div>
+            <div class="uppercase menu--item1"><a href="#" class="page-scroll menu__text">About Ticket</a></div>
+        </c:if>
+        
     </div>
 </div>
 <div class="container-fluid">
@@ -112,6 +123,7 @@
         <img class="hidden-xs w-100" src="img/bacon.jpg" />
         <img class="visible-xs w-100" src="img/moblie_bacon.jpg" />
     </div>
+     <c:if test="${!sessionScope.User.isAdmin || sessionScope.User eq null}">
     <div class="row sec2" id="booking">
         <div class="container pl-pr-0">
             <div class="col-sm-10 col-sm-offset-1 padding-left-0 padding-right-0">
@@ -170,13 +182,74 @@
             <div class="clearfix"></div>
         </div>
     </div>
+    </c:if>
+    <c:if test="${sessionScope.User.isAdmin}">
+    <div class="row sec2" id="booking" >
+        <div class="container pl-pr-0">
+            <div class="col-sm-10 col-sm-offset-1 padding-left-0 padding-right-0">
+                <h2 class="slogan mg-16 text-uppercase color--blue">Schedule For Each Team</h2>
+                <div class="clearfix pd-8 teams-row">
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_sgh.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <div class="abs">
+                                <a href="team/schedule" class="anchor book-now page-scroll color-white red-color" target="_blank">Update Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_tlw.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <div class="abs">
+                                <a href="team/schedule" class="anchor book-now page-scroll color-white white-color" target="_blank">Update Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_dnd.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <div class="abs">
+                                <a href="team/schedule" class="anchor book-now page-scroll color-white orange-color" target="_blank">Update Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_hcmc.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <div class="abs">
+                                <a href="team/schedule" class="anchor book-now page-scroll color-white light-blue-color" target="_blank">Update Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_ctc.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <div class="abs">
+                                <a href="team/schedule" class="anchor book-now page-scroll color-white yellow-color" target="_blank">Update Now</a>
+                            </div>
+                        </div>
+                    </div>     
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_hnb.png?v=@Constants.StaticUrlVersion" class="w-100" />
+                            <div class="abs">
+                                <a href="team/schedule" class="anchor book-now page-scroll color-white blue-color" target="_blank">Update Now</a>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    </c:if>
     <div class="sec3-sec4 intro" id="intro">
         <div class="container pl-pr-0"> 
             <div class="col-sm-10 col-sm-offset-1">
                 <div class="">
                     <div class="sec3 row bg-white">
                         <div class="bor-top border-top-green title-bl border-blue">
-                            <h1 class="text-uppercase text-green bg-tl-white about-title text-center">Về VBA</h1>
+                            <h1 class="text-uppercase text-green bg-tl-white about-title text-center">About VBA</h1>
                         </div>
                         <p class="mg-16 about-vba">
                             VBA là Giải Bóng Rổ Chuyên Nghiệp đầu tiên tại Việt Nam được xây dựng theo mô hình chuyên nghiệp quốc tế. Ra đời vào năm 2016, đến nay số lượng đội tuyển tham gia VBA đã nâng lên con số 6 gồm Thang Long Warriors, Hanoi Buffaloes, Cantho Catfish, HCMC Wings , Saigon Heat. VBA 2017 đã chứng kiến sự kịch tính tới những vòng cuối cùng khi đội bóng tân binh Thang Long Warriors lên ngôi vô địch trong năm đầu tham dự giải.
@@ -200,7 +273,7 @@
                 <div class="container">
                     <div class="w-100">
                         <div class="col-sm-4 text-left footer-logo-block hidden-xs text-center">
-                            <a href="" class="inline-block logo" style="padding-left: 20%">
+                            <a href="#" class="inline-block logo" style="padding-left: 20%">
                                 <img width="120" src="https://static.tkbcdn.com/images-v2/ticketbox-small.png?v3">
                             </a>
                         </div>

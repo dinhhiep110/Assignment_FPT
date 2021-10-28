@@ -5,7 +5,6 @@
  */
 package Model;
 
-import java.sql.Date;
 
 /**
  *
@@ -14,17 +13,15 @@ import java.sql.Date;
 public class Team {
     private int id;
     private String name;
-    private String decription;
     private String location;
-    private Date publish_year;
+    private String publish_year;
 
     public Team() {
     }
 
-    public Team(int id, String name, String decription, String location, Date publish_year) {
+    public Team(int id, String name, String location, String publish_year) {
         this.id = id;
         this.name = name;
-        this.decription = decription;
         this.location = location;
         this.publish_year = publish_year;
     }
@@ -45,14 +42,6 @@ public class Team {
         this.name = name;
     }
 
-    public String getDecription() {
-        return decription;
-    }
-
-    public void setDecription(String decription) {
-        this.decription = decription;
-    }
-
     public String getLocation() {
         return location;
     }
@@ -61,11 +50,11 @@ public class Team {
         this.location = location;
     }
 
-    public Date getPublish_year() {
+    public String getPublish_year() {
         return publish_year;
     }
 
-    public void setPublish_year(Date publish_year) {
+    public void setPublish_year(String publish_year) {
         this.publish_year = publish_year;
     }
     

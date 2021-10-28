@@ -28,7 +28,6 @@ public class UserDBContext extends DBContext {
                     "      ,[gender] = ?\n" +
                     "      ,[phone] = ?\n" +
                     "      ,[address] = ?\n" +
-                    "      ,[isAdmin] = ?\n" +
                     " WHERE id = ?";
             PreparedStatement stm = connection.prepareStatement(sql);
             stm.setString(1, username);
@@ -38,8 +37,7 @@ public class UserDBContext extends DBContext {
             stm.setBoolean(5, gender);
             stm.setString(6, phone);
             stm.setString(7, address);
-            stm.setBoolean(8, false);
-            stm.setInt(9, id);
+            stm.setInt(8, id);
             stm.executeUpdate(); 
         } catch (SQLException ex) {
             Logger.getLogger(UserDBContext.class.getName()).log(Level.SEVERE, null, ex);
