@@ -23,14 +23,6 @@
 	<link type="text/css" rel="stylesheet" href="../view/css/bootstrap.min.css" />
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="../view/css/teamschedule.css" />
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
 </head>
 
 <body>
@@ -38,75 +30,81 @@
         <div class="section-center">
             <div class="container">
                 <div class="row">
-                    <div class="update-schedule">
-                        <c:forEach items="${requestScope.teams}" var="t">
-                            <nav id="${t.id}" class="navbar navbar-light col-md-2" onclick="StayHover(${t.id})">
-                                <div class="form-group">
-                                    <span class="form-label" style="text-align: center">${t.name}</span>
-                                </div>
-                            </nav>
-                        </c:forEach>
+                    <div class="update-schedule" >   
                         <form id="schedule-form" action="schedule" method="Post">
-                            <div class="col-md-8">
+                            <div class="select_team col-md-12">      
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Enter Address, zip, city or airport">
-                                    <span class="form-label">Destination</span>
+                                    <span class="form-label" style="text-align: center">Schedule for each teams</span>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-5">
                                 <div class="form-group">
-                                    <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
+                                    <select name="team_host" class="form-control">
+                                        <c:forEach items="${requestScope.teams}" var="t"> 
+                                            <option value="${t.id}" selected="selected">${t.name}</option>
+                                        </c:forEach>
                                     </select>
-                                    <span class="select-arrow"></span>
-                                    <span class="form-label">Guests</span>
+                                    <span class="form-label">Team Host</span>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2" >      
+                                    <div class="form-group">
+                                        <span class="form-label versus" style="text-align: center">VS</span>
+                                    </div>
+                                </div>
+                            
+                             <div class="col-md-5">
                                 <div class="form-group">
-                                    <select class="form-control">
-                                            <option>0</option>
-                                            <option>1</option>
-                                            <option>2</option>
+                                    <select name="team_opponent" class="form-control">
+                                        <c:forEach items="${requestScope.teams}" var="t"> 
+                                            <option value="${t.id}">${t.name}</option>
+                                        </c:forEach>
                                     </select>
-                                    <span class="select-arrow"></span>
-                                    <span class="form-label">Children</span>
+                                    <span class="form-label">Team Opponent</span>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" >      
                                 <div class="form-group">
-                                    <input class="form-control" type="date" required>
-                                    <span class="form-label">Check In</span>
+                                    <input class="form-control" type="date" name="date">
+                                    <span class="form-label" >Date</span>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            
+                            <div class="col-md-4" >      
                                 <div class="form-group">
-                                    <input class="form-control" type="date" required>
-                                    <span class="form-label">Check out</span>
+                                    <input class="form-control" type="time" name="time">
+                                    <span class="form-label" >Time</span>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            
+                            <div class="col-md-4" >      
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="quantity_ticket">
+                                    <span class="form-label" >Number of Ticket</span>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4" style="float:none;margin:auto;">
                                 <div class="form-btn">
                                     <button class="submit-btn">Check availability</button>
                                 </div>
                             </div>
                         </form>
+                      
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<script>
-    function StayHover(id){
-        document.getElementById(id).style.background = "#e3f2fd";
-    }
     
+       
     
-   
-</script>
 </body>
-
+    <c:if test="${requestScope.error != null}">
+        <script>
+            alert("${requestScope.error}");
+            window.location.href = "schedule";
+        </script>
+    </c:if>
 
 </html>

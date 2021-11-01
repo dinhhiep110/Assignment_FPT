@@ -23,7 +23,7 @@
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <title>VBA - Giải Bóng Rổ Chuyên Nghiệp Việt Nam 2018</title>
+    <title>VBA - Giải Bóng Rổ Chuyên Nghiệp Việt Nam 2021</title>
 
 
     <link href="view/css/vba.css" rel="stylesheet" />

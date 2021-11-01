@@ -14,18 +14,13 @@ import java.sql.Time;
  */
 public class Match {
     private int id;
+    private int team_opponent_id;
     private Date date;
     private Time time;
-    private String location;
+    private int numberTicket;
+    private Schedule schedule;
 
     public Match() {
-    }
-
-    public Match(int id, Date date, Time time, String location) {
-        this.id = id;
-        this.date = date;
-        this.time = time;
-        this.location = location;
     }
 
     public int getId() {
@@ -34,6 +29,14 @@ public class Match {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getTeam_opponent_id() {
+        return team_opponent_id;
+    }
+
+    public void setTeam_opponent_id(int team_opponent_id) {
+        this.team_opponent_id = team_opponent_id;
     }
 
     public Date getDate() {
@@ -52,13 +55,24 @@ public class Match {
         this.time = time;
     }
 
-    public String getLocation() {
-        return location;
+    public int getNumberTicket() {
+        return numberTicket;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setNumberTicket(int numberTicket) {
+        this.numberTicket = numberTicket;
     }
+
+    public Schedule getSchedule() {
+        return schedule;
+    }
+
+    public void setSchedule(Schedule schedule) {
+        this.schedule = schedule;
+    }
+
+    
+    
     
     
     

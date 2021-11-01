@@ -5,23 +5,15 @@
  */
 package Model;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Duy Hiep
  */
 public class Schedule {
     private int id;
-    private Match match;
-    private ArrayList<Team []> listTeam = new ArrayList<>();
+    private Team team;
 
     public Schedule() {
-    }
-
-    public Schedule(int id, Match match) {
-        this.id = id;
-        this.match = match;
     }
 
     public int getId() {
@@ -32,23 +24,12 @@ public class Schedule {
         this.id = id;
     }
 
-    public Match getMatch() {
-        return match;
+    public Team getTeam() {
+        return team;
     }
 
-    public void setMatch(Match match) {
-        this.match = match;
-    }
-
-    public ArrayList<Team[]> getListTeam() {
-        return listTeam;
-    }
-
-    public void setListTeam(ArrayList<Team[]> listTeam) {
-        this.listTeam = listTeam;
-    }
-
-   
-    
+    public void setTeam_id(Team team) {
+        this.team = team;
+    }    
     
 }

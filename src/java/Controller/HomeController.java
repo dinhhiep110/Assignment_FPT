@@ -28,6 +28,7 @@ public class HomeController extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         request.getRequestDispatcher("view/jsp/home.jsp").forward(request, response);
     }
 

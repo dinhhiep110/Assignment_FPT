@@ -47,18 +47,18 @@ body{
 	border-radius: 4px;
 }
 
-.update-schedule .navbar{
+.update-schedule .select_team{
     background-color: grey;
     opacity: 1;
     border: 1px solid #e3f2fd;
+    border-radius: 5px;
+    margin-bottom: 2em;
 }
 
-.update-schedule .navbar:hover{
+.update-schedule .select_team:hover{
     background-color: #e3f2fd;
     font-size: 1em;
 }
-
-
 
 .team-name{
     border: solid 1px;
@@ -119,6 +119,11 @@ body{
 	text-transform: uppercase;
 }
 
+.update-schedule .versus{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
 .update-schedule .form-label:after {
 	position: absolute;
 	left: 10px;
@@ -139,8 +144,8 @@ body{
 	border: none;
 	font-weight: 600;
 	text-transform: uppercase;
-	height: 90px;
-	font-size: 18px;
+	height: 4.5em;
+	font-size: 1em;
 	width: 100%;
 	color: #fff;
 	border-radius: 4px;

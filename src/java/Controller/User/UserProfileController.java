@@ -22,6 +22,7 @@ public class UserProfileController extends BaseRequiredAuthController {
 
     @Override
     protected void proccessGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         User user = (User)request.getSession().getAttribute("User");
         if(user != null){
             request.setAttribute("user", user);
@@ -31,6 +32,7 @@ public class UserProfileController extends BaseRequiredAuthController {
 
     @Override
     protected void proccessPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         User user = (User)request.getSession().getAttribute("User");
         UserDBContext udb = new UserDBContext();
         int id = user.getId();
