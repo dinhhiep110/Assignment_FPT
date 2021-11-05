@@ -92,14 +92,25 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="navbar-collapse padding-right-0 padding-left-0 container collapse" id="bs-example-navbar-collapse-1" style="">
         <ul class="nav navbar-nav w-100 text-center">
+            <c:if test="${!sessionScope.User.isAdmin}">
             <li>
                 <a class="page-scroll text-uppercase" href="#intro">Về VBA</a>
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#booking">Đặt vé</a>
             </li> 
-            
-            
+            </c:if>
+            <c:if test="${sessionScope.User.isAdmin}">
+            <li>
+                <a class="page-scroll text-uppercase" href="#intro">About VBA</a>
+            </li>
+            <li>
+                <a class="page-scroll text-uppercase" href="#booking">Team Schedule</a>
+            </li>
+            <li>
+                <a class="page-scroll text-uppercase" href="#">About Ticket</a>
+            </li>
+            </c:if>
         </ul>
     </div>
     <!-- /.navbar-collapse -->

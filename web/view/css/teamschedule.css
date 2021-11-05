@@ -1,10 +1,15 @@
 body{
    background-image: url('../../img/bg.png');
+   filter: blur(15px);
+  -webkit-filter: blur(15px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section {
 	position: relative;
-	height: 150vh;
+	height: 120vh;
 }
 
 .section .section-center {
@@ -21,6 +26,12 @@ body{
 	background-size: cover;
 	background-position: center;
 	font-weight: 300;
+       margin-bottom: 5em;
+}
+
+button{
+    color: black;
+    border: 1px solid black;
 }
 
 .update-schedule {
@@ -32,7 +43,6 @@ body{
 
 .update-schedule.form-group {
 	position: relative;
-	margin-bottom: 60px;
 }
 
 .update-schedule .form-control {
@@ -139,6 +149,7 @@ body{
 	margin-bottom: 30px;
 }
 
+.update-schedule .btn,
 .update-schedule .submit-btn {
 	background: #184c8f;
 	border: none;
@@ -150,4 +161,31 @@ body{
 	color: #fff;
 	border-radius: 4px;
 	display: block;
+}
+
+#display-schedule{
+    font-family: sans-serif;
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -30vh;
+}
+
+.schedule-tbl{
+    border-collapse: collapse;
+    border-left: solid 3px white;
+    border-right: solid 3px white;
+    border: solid 3px white;
+}
+
+th{
+    padding: 1em;
+}
+
+th,td{
+    text-align: center;
+    border-left: solid 3px white;
+    border-right: solid 3px white;
+    border: solid 3px white;
 }
