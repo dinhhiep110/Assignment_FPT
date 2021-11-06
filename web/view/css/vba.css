@@ -373,7 +373,7 @@ img {
 .book-now.small {
   padding: 2px 0;
   width: 88px;
-  font-size: 15px;
+  font-size: 11px;
 }
 
 .book-now.lg {
@@ -610,10 +610,10 @@ a:active, a:visited, a:hover, a:focus {
 
 .schedule-tbl td, .schedule-tbl th {
   border-bottom-color: transparent;
-  padding: 5px 20px;
+  padding: 5px 25px;
   text-align: center;
   font-family: "SVN-Agency FB";
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .schedule-tbl th {
@@ -831,7 +831,7 @@ footer, footer p {
   font-family: "SVN-Agency FB";
   margin-bottom: 0;
   line-height: 1.4em;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .note-ticket .icon:before {
@@ -1157,8 +1157,8 @@ footer, footer p {
     background-position-y: 60%, 80%;
   }
   .main-nav > .container {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 130px;
+    padding-right: 130px;
   }
   .sec2 .team-bl .abs {
     bottom: -35%;

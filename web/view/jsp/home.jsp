@@ -108,7 +108,7 @@
                 <a class="page-scroll text-uppercase" href="#booking">Team Schedule</a>
             </li>
             <li>
-                <a class="page-scroll text-uppercase" href="#">About Ticket</a>
+                <a class="page-scroll text-uppercase" href="../insert">About Ticket</a>
             </li>
             </c:if>
         </ul>
@@ -124,7 +124,7 @@
         <c:if test="${sessionScope.User.isAdmin}">
             <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">About VBA</a></div>
             <div class="uppercase menu--item1"><a href="#booking" class="page-scroll menu__text">Team Schedule</a></div>
-            <div class="uppercase menu--item1"><a href="#" class="page-scroll menu__text">About Ticket</a></div>
+            <div class="uppercase menu--item1"><a href="ticket/controller" class="page-scroll menu__text">About Ticket</a></div>
         </c:if>
         
     </div>
@@ -142,15 +142,15 @@
                 <div class="clearfix pd-8 teams-row">
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_sgh.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_sgh.png" class="w-100">
                             <div class="abs">
-                                <a href="https://ticketbox.vn/vba-sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="vba/sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_tlw.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_tlw.png" class="w-100">
                             <div class="abs">
                                 <a href="https://ticketbox.vn/vba-tlw" class="anchor book-now page-scroll color-white white-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
@@ -158,7 +158,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_dnd.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_dnd.png" class="w-100">
                             <div class="abs">
                                 <a href="https://ticketbox.vn/vba-dnd" class="anchor book-now page-scroll color-white orange-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
@@ -166,7 +166,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_hcmc.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_hcm_thidau.png" class="w-100">
                             <div class="abs">
                                 <a href="https://ticketbox.vn/vba-wings" class="anchor book-now page-scroll color-white light-blue-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_ctc.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_ctc.png" class="w-100">
                             <div class="abs">
                                 <a href="https://ticketbox.vn/vba-ctc" class="anchor book-now page-scroll color-white yellow-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
@@ -182,7 +182,7 @@
                     </div>     
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_hnb.png?v=@Constants.StaticUrlVersion" class="w-100" />
+                            <img src="img/logo_hnb.png" class="w-100" />
                             <div class="abs">
                                 <a href="https://ticketbox.vn/vba-hnb" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>

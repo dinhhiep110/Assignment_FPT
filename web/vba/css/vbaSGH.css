@@ -1,0 +1,64 @@
+.text-red {
+  color: #D23139;
+}
+
+.bg-red {
+  background-color: #ed2025;
+}
+
+.bg-ocean {
+  background-color: #302f8c;
+}
+
+.bg-yellow {
+  background-color: #feb415;
+}
+
+.border-top-red {
+  border-top-color: #D23139;
+}
+
+.main-nav {
+  background-color: #000000;
+}
+
+.sec2 {
+  background-image: url("/img/sgh_bg_2.jpg");
+}
+
+.sec3-sec4 {
+  background-image: url(https://tkbvn-tokyo.s3.amazonaws.com/static-page/img/bg-about-gray.jpg), url(https://tkbvn-tokyo.s3.amazonaws.com/static-page/img/bg-about-gray.jpg);
+}
+
+.sec4 {
+  background: url("/static-page/landingpages/vba-sgh/images/sgh.jpg") center/cover no-repeat;
+}
+
+.note-ticket .icon-clothes:before {
+  background-image: url("/static-page/landingpages/vba-sgh/images/sgh_icon_tickets.png");
+  background-position: center 4px;
+}
+
+.note-ticket .icon-card:before {
+  background-image: url("/static-page/landingpages/vba-sgh/images/sgh_icon_tickets.png");
+  background-position: center -18px;
+}
+
+.note-ticket .icon-food:before {
+  background-image: url("/static-page/landingpages/vba-sgh/images/sgh_icon_tickets.png");
+  background-position: center -46px;
+}
+
+.note-ticket .icon-sale:before {
+  background-image: url("/static-page/landingpages/vba-sgh/images/sgh_icon_tickets.png");
+  background-position: center -71px;
+}
+
+.note-ticket .icon-sit:before {
+  background-image: url("/static-page/landingpages/vba-sgh/images/sgh_icon_tickets.png");
+  background-position: center -101px;
+}
+
+.info {
+  background-image: url("../../../img/sgh_bg_1.jpg");
+}

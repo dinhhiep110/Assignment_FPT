@@ -37,4 +37,28 @@ public class TeamDBContext extends DBContext {
         }
         return teams;
     }
+
+    public Team getTeamByID(int id) {
+        try {
+            String sql = "SELECT [id]\n" +
+                    "      ,[name]\n" +
+                    "      ,[location]\n" +
+                    "      ,[publish_year]\n" +
+                    "  FROM [Team] where id = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setInt(1, id);
+            ResultSet rs = stm.executeQuery();
+            if (rs.next()) {
+               Team t = new Team();
+               t.setId(rs.getInt("id"));
+               t.setName(rs.getString("name"));
+               t.setLocation(rs.getString("location"));
+               t.setPublish_year(rs.getString("publish_year"));
+               return t;
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(TeamDBContext.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
+    }
 }

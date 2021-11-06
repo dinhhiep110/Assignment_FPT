@@ -124,7 +124,7 @@
                     <td><%=count++%></td>
                     <td class="schedule-logo">
                         <c:if test="${s.schedule.id eq 1}">
-                            <img src="../img/logo_sgh.png" style="height: 8em;">
+                            <img src="../img/logo_sgh.png" style="height: 7em;">
                         </c:if>    
                         <c:if test="${s.schedule.id eq 2}">
                             <img src="../img/logo_tlw.png" style="height: 7em;">
@@ -139,13 +139,13 @@
                             <img src="../img/logo_ctc.png" style="height: 7em;">
                         </c:if>  
                         <c:if test="${s.schedule.id eq 6}">
-                            <img src="../img/logo_hnb_thidau.png" style="height: 5em;">
+                            <img src="../img/logo_hnb.png" style="height: 7em;">
                         </c:if> 
                             
                         <img src="https://tkbvn-tokyo.s3.amazonaws.com/static-page/img/vba-vs.png">
                         
                          <c:if test="${s.team_opponent_id eq 1}">
-                            <img src="../img/logo_sgh.png" style="height: 8em;">
+                            <img src="../img/logo_sgh.png" style="height: 7em;">
                         </c:if>    
                         <c:if test="${s.team_opponent_id eq 2}">
                             <img src="../img/logo_tlw.png" style="height: 7em;">
@@ -160,7 +160,7 @@
                             <img src="../img/logo_ctc.png" style="height: 7em;">
                         </c:if>  
                         <c:if test="${s.team_opponent_id eq 6}">
-                            <img src="../img/logo_hnb_thidau.png" style="height: 4.5em;">
+                            <img src="../img/logo_hnb.png" style="height: 7em;">
                         </c:if>
                     </td>
                     <td>${s.date}</td>
