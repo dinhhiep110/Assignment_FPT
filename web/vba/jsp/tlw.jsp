@@ -1,6 +1,6 @@
 <%-- 
-    Document   : sgh
-    Created on : Nov 5, 2021, 9:36:55 PM
+    Document   : tlw
+    Created on : Nov 7, 2021, 4:18:05 PM
     Author     : Duy Hiep
 --%>
 
@@ -22,12 +22,11 @@
     <meta name="data-showing-id" content="42065" />
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
     
-    <title>SAIGON HEAT</title>
+    <title>THANGLONG WARRIORS</title>
     <link href="../vba/css/slick-theme.css" rel="stylesheet" type="text/css"/>
     <link href="../vba/css/slick.css" rel="stylesheet" />
     <link href="../view/css/vba.css" rel="stylesheet" />
-    <link href="../view/css/vbaSGH.css" rel="stylesheet" />
-    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-sgh/css/vbaSGH.css?v=20213705.0937" rel="stylesheet">
+    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-tlw/css/vbaTL.css?v=20210907.0409" rel="stylesheet">
 
 
 </head>
@@ -76,7 +75,7 @@
     <div class="navbar-collapse padding-right-0 padding-left-0 container collapse" id="bs-example-navbar-collapse-1" style="">
         <ul class="nav navbar-nav w-100 text-center">
             <li>
-                <a class="page-scroll text-uppercase" href="#intro">Saigon Heat</a>
+                <a class="page-scroll text-uppercase" href="#intro">THANGLONG WARRIORS</a>
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#ticket">VÉ TRẬN</a>
@@ -96,7 +95,7 @@
 </nav>
 <div class="main-nav hidden-xs">
     <div class="hidden-xs container ">
-        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Saigon Heat</a></div>
+        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">ThangLong Warriors</a></div>
         <div class="uppercase menu--item1"><a href="#ticket" class="page-scroll menu__text">VÉ TRẬN</a></div>
         <div class="uppercase menu--item1"><a href="#courst" class="page-scroll menu__text">BẢN ĐỒ SÂN</a></div>
         <div class="uppercase menu--item1"><a href="#about-vba" class="page-scroll menu__text">VỀ VBA</a></div>
@@ -114,11 +113,11 @@
                 <div class="">
                     <div class="sec3 row bg-white">
                         <div class="bor-top border-top-red title-bl">
-                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Saigon Heat</h1>
+                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">THANGLONG WARRIORS</h1>
                         </div>
                         <p class="mg-16 about-vba">
-                            Được thành lập vào năm 2011, Saigon Heat là đội bóng rổ đi theo mô hình chuyên nghiệp đầu tiên ở Việt Nam. Trở thành đại diện duy nhất của Việt Nam tham dự Giải bóng rổ nhà nghề Đông Nam Á, Sau những nỗ lực không ngừng nghỉ, Saigon Heat đã tạo nên lịch sử cho bóng rổ Việt Nam với thành tích lọt vào Top 4 đội mạnh nhất của mùa giải ABL 2014. Mùa giải 2015-2016 chứng kiến một Saigon Heat trẻ trung, mạnh mẽ  tái lập thành tích lịch sử và tạo nên cơn sốt bóng rổ chưa từng thấy tại Việt Nam. <br/><br/>
-                            Tiếp bước tinh thần tạo nên thành công, Saigon Heat trở thành cái tên đầu tiên góp mặt tại VBA, giải đấu theo mô hình chuyên nghiệp đầu tiên tại Việt Nam, được tổ chức với hy vọng nâng tầm bóng rổ và tạo ra môi trường cạnh tranh chuyên nghiệp nhất. Với đội hình được xây dựng bài bản, Saigon Heat cho thấy quyết tâm chiến thắng ở mọi giải đấu, từ ABL cho tới VBA.
+                            Thăng Long Warriors - những chiến binh Hà Nội với ý chí quật cường, uy dũng và mãnh liệt đã làm nên lịch sử - đội bóng Tân binh đã trở thành nhà vô địch. Mùa giải VBA 2017 chứng kiến một TLW mạnh mẽ, với sức chiến đấu bền bỉ không lùi trước những đội quân tinh nhuệ khác, và cuối cùng chiến thắng đã gọi tên người xứng đáng.  TLW không chỉ là một đội bóng mà còn là một mái nhà, một gia đình, nơi những người anh em cùng bên nhau và cùng chiến đấu với tinh thần đồng đội bền chặt cùng lối chơi đẹp mắt thăng hoa.  <br/><br/>
+                            VBA 2018 TLW trở lại với bộ ba Big men Jaywuan Hill, Nguyễn Văn Hùng và Justin Young cùng toàn bộ các chiến binh đã cùng nhau bước lên đỉnh vinh quang. Dưới sự dẫn dắt của Tân HLV Matt Skillman, vị thuyền trưởng  đã có kinh nghiệm dẫn dắt tại rất nhiều quốc gia như Mỹ, Mexico, Trung Quốc, Trung Đông... cùng sự bổ sung của các mảnh ghép hoàn hảo khác, các chiến binh đã ngày càng hoàn thiện hơn không chỉ trong kỹ thuật mà còn sắt đá hơn trong ý chí. TLW với quyết tâm giữ vững ngôi vị của mình để luôn là biểu tượng của bóng rổ thủ đô, như hình ảnh "Thăng Long - Rồng bay lên" - biểu tượng của ngàn năm Hà Nội, và từ đó tiếp tục mang văn hoá bóng rổ hiện đại và chuyên nghiệp hơn đến với đông đảo các bạn trẻ
                         </p>
                     </div>
                     
@@ -275,8 +274,8 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="map-match">
-                        <p>Nhà thi đấu trường quốc tế CIS, đường số 23, phường Tân Phú, Quận 7, TP.HCM</p>
-                        <img src="../img/map-sgh.jpg">
+                        <p>Nhà thi đấu Đại Học Sư Phạm, 136 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội</p>
+                        <img src="../img/map_tlw.jpg">
                     </div>
                     <div class="retail-price col-sm-12 text-left">
                         <div class="col-xs-6 col-sm-3 col-md-2 padding-left-0 mg-bottom-10">
@@ -355,18 +354,20 @@
                         <div class="wrapper">
                             <img src="../img/logo_hnb.png" class="w-100" />
                             <div class="abs">
-                                <a href="" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="hnb" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="../img/logo_tlw.png" class="w-100">
+                            <img src="../img/logo_sgh.png" class="w-100">
                             <div class="abs">
-                                <a href="tlw" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
                             <img src="../img/logo_dnd.png" class="w-100">

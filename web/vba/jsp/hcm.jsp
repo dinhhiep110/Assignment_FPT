@@ -1,6 +1,6 @@
 <%-- 
-    Document   : sgh
-    Created on : Nov 5, 2021, 9:36:55 PM
+    Document   : hcm
+    Created on : Nov 7, 2021, 8:45:01 PM
     Author     : Duy Hiep
 --%>
 
@@ -22,13 +22,11 @@
     <meta name="data-showing-id" content="42065" />
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
     
-    <title>SAIGON HEAT</title>
+    <title>HCM CITY WINGS</title>
     <link href="../vba/css/slick-theme.css" rel="stylesheet" type="text/css"/>
     <link href="../vba/css/slick.css" rel="stylesheet" />
     <link href="../view/css/vba.css" rel="stylesheet" />
-    <link href="../view/css/vbaSGH.css" rel="stylesheet" />
-    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-sgh/css/vbaSGH.css?v=20213705.0937" rel="stylesheet">
-
+    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-wings/css/vbaWings.css?v=20212907.0829" rel="stylesheet">
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -76,7 +74,7 @@
     <div class="navbar-collapse padding-right-0 padding-left-0 container collapse" id="bs-example-navbar-collapse-1" style="">
         <ul class="nav navbar-nav w-100 text-center">
             <li>
-                <a class="page-scroll text-uppercase" href="#intro">Saigon Heat</a>
+                <a class="page-scroll text-uppercase" href="#intro">HCM CITY WINGS</a>
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#ticket">VÉ TRẬN</a>
@@ -96,7 +94,7 @@
 </nav>
 <div class="main-nav hidden-xs">
     <div class="hidden-xs container ">
-        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Saigon Heat</a></div>
+        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">HCM CITY Wings</a></div>
         <div class="uppercase menu--item1"><a href="#ticket" class="page-scroll menu__text">VÉ TRẬN</a></div>
         <div class="uppercase menu--item1"><a href="#courst" class="page-scroll menu__text">BẢN ĐỒ SÂN</a></div>
         <div class="uppercase menu--item1"><a href="#about-vba" class="page-scroll menu__text">VỀ VBA</a></div>
@@ -114,11 +112,10 @@
                 <div class="">
                     <div class="sec3 row bg-white">
                         <div class="bor-top border-top-red title-bl">
-                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Saigon Heat</h1>
+                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">HCM CITY WINGS</h1>
                         </div>
                         <p class="mg-16 about-vba">
-                            Được thành lập vào năm 2011, Saigon Heat là đội bóng rổ đi theo mô hình chuyên nghiệp đầu tiên ở Việt Nam. Trở thành đại diện duy nhất của Việt Nam tham dự Giải bóng rổ nhà nghề Đông Nam Á, Sau những nỗ lực không ngừng nghỉ, Saigon Heat đã tạo nên lịch sử cho bóng rổ Việt Nam với thành tích lọt vào Top 4 đội mạnh nhất của mùa giải ABL 2014. Mùa giải 2015-2016 chứng kiến một Saigon Heat trẻ trung, mạnh mẽ  tái lập thành tích lịch sử và tạo nên cơn sốt bóng rổ chưa từng thấy tại Việt Nam. <br/><br/>
-                            Tiếp bước tinh thần tạo nên thành công, Saigon Heat trở thành cái tên đầu tiên góp mặt tại VBA, giải đấu theo mô hình chuyên nghiệp đầu tiên tại Việt Nam, được tổ chức với hy vọng nâng tầm bóng rổ và tạo ra môi trường cạnh tranh chuyên nghiệp nhất. Với đội hình được xây dựng bài bản, Saigon Heat cho thấy quyết tâm chiến thắng ở mọi giải đấu, từ ABL cho tới VBA.
+                            Dưới bàn tay dẫn dắt của người đứng đầu – ông Trần Anh Tú, Hochiminh City Wings được biết đến là một trong những đội tuyển vô cùng bài bản trong lĩnh vực thể thao chuyên nghiệp hiện nay. Là đại diện cho lứa cầu thủ trẻ, không ngừng cố gắng và phấn đấu, những đứa con thành phố đang mang trong mình trọng trách lớn lao, vươn mình trở lại mạnh mẽ sau một mùa giải vô cùng biến động. Bên cạnh sự góp mặt của “cơ trưởng” mới đầy hứa hẹn - Brian Rowsom, lứa cầu thủ nòng cốt Henry Nguyễn, Tuấn Anh, Thành Nhân, Kỳ Quan, “cánh chim trở về” Nguyễn Huỳnh Hải cùng “đàn đại bàng trổ cánh” U17 và U19 đã sẵn sàng cho mọi thử thách mới ở mùa giải VBA 2018. Hãy sát cánh cùng chúng tôi - những cầu thủ thứ 6, Hochiminh City Wings luôn tự hào là những cánh chim đại bàng phương Nam chưa bao giờ bỏ cuộc!
                         </p>
                     </div>
                     
@@ -275,8 +272,8 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="map-match">
-                        <p>Nhà thi đấu trường quốc tế CIS, đường số 23, phường Tân Phú, Quận 7, TP.HCM</p>
-                        <img src="../img/map-sgh.jpg">
+                        <p>Nhà thi đấu TT TDTT Hồ Xuân Hương, số 2 đường Hồ Xuân Hương, phường 6, quận 3</p>
+                        <img src="../img/map_hcm.jpg">
                     </div>
                     <div class="retail-price col-sm-12 text-left">
                         <div class="col-xs-6 col-sm-3 col-md-2 padding-left-0 mg-bottom-10">
@@ -359,6 +356,16 @@
                             </div>
                         </div>                        
                     </div>
+                    
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="../img/logo_sgh.png" class="w-100">
+                            <div class="abs">
+                                <a href="sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
+                            </div>
+                        </div>                        
+                    </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
                             <img src="../img/logo_tlw.png" class="w-100">
@@ -367,6 +374,7 @@
                             </div>
                         </div>                        
                     </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
                             <img src="../img/logo_dnd.png" class="w-100">
@@ -375,19 +383,12 @@
                             </div>
                         </div>                        
                     </div>
-                    <div class="col-xs-6 team-bl">
-                        <div class="wrapper rotate">
-                            <img src="../img/logo_hcm_thidau.png" class="w-100">
-                            <div class="abs">
-                                <a href="hcm" class="anchor book-now page-scroll color-white light-blue-color" target="_blank">ĐẶT VÉ NGAY</a>
-                            </div>
-                        </div>                        
-                    </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
                             <img src="../img/logo_ctc.png" class="w-100">
                             <div class="abs">
-                                <a href="ctc" class="anchor book-now page-scroll color-white green-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="" class="anchor book-now page-scroll color-white green-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>

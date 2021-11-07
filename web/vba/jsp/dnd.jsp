@@ -1,6 +1,6 @@
 <%-- 
-    Document   : sgh
-    Created on : Nov 5, 2021, 9:36:55 PM
+    Document   : dnd
+    Created on : Nov 7, 2021, 6:39:03 PM
     Author     : Duy Hiep
 --%>
 
@@ -22,12 +22,11 @@
     <meta name="data-showing-id" content="42065" />
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
     
-    <title>SAIGON HEAT</title>
+    <title>DANANG DRAGONS</title>
     <link href="../vba/css/slick-theme.css" rel="stylesheet" type="text/css"/>
     <link href="../vba/css/slick.css" rel="stylesheet" />
     <link href="../view/css/vba.css" rel="stylesheet" />
-    <link href="../view/css/vbaSGH.css" rel="stylesheet" />
-    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-sgh/css/vbaSGH.css?v=20213705.0937" rel="stylesheet">
+    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-dnd/css/vbaDND.css?v=20213707.0637" rel="stylesheet">
 
 
 </head>
@@ -76,7 +75,7 @@
     <div class="navbar-collapse padding-right-0 padding-left-0 container collapse" id="bs-example-navbar-collapse-1" style="">
         <ul class="nav navbar-nav w-100 text-center">
             <li>
-                <a class="page-scroll text-uppercase" href="#intro">Saigon Heat</a>
+                <a class="page-scroll text-uppercase" href="#intro">DANANG DRAGON</a>
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#ticket">VÉ TRẬN</a>
@@ -96,7 +95,7 @@
 </nav>
 <div class="main-nav hidden-xs">
     <div class="hidden-xs container ">
-        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Saigon Heat</a></div>
+        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">DaNang Dragon</a></div>
         <div class="uppercase menu--item1"><a href="#ticket" class="page-scroll menu__text">VÉ TRẬN</a></div>
         <div class="uppercase menu--item1"><a href="#courst" class="page-scroll menu__text">BẢN ĐỒ SÂN</a></div>
         <div class="uppercase menu--item1"><a href="#about-vba" class="page-scroll menu__text">VỀ VBA</a></div>
@@ -114,11 +113,10 @@
                 <div class="">
                     <div class="sec3 row bg-white">
                         <div class="bor-top border-top-red title-bl">
-                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Saigon Heat</h1>
+                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">DANANG DRAGON</h1>
                         </div>
                         <p class="mg-16 about-vba">
-                            Được thành lập vào năm 2011, Saigon Heat là đội bóng rổ đi theo mô hình chuyên nghiệp đầu tiên ở Việt Nam. Trở thành đại diện duy nhất của Việt Nam tham dự Giải bóng rổ nhà nghề Đông Nam Á, Sau những nỗ lực không ngừng nghỉ, Saigon Heat đã tạo nên lịch sử cho bóng rổ Việt Nam với thành tích lọt vào Top 4 đội mạnh nhất của mùa giải ABL 2014. Mùa giải 2015-2016 chứng kiến một Saigon Heat trẻ trung, mạnh mẽ  tái lập thành tích lịch sử và tạo nên cơn sốt bóng rổ chưa từng thấy tại Việt Nam. <br/><br/>
-                            Tiếp bước tinh thần tạo nên thành công, Saigon Heat trở thành cái tên đầu tiên góp mặt tại VBA, giải đấu theo mô hình chuyên nghiệp đầu tiên tại Việt Nam, được tổ chức với hy vọng nâng tầm bóng rổ và tạo ra môi trường cạnh tranh chuyên nghiệp nhất. Với đội hình được xây dựng bài bản, Saigon Heat cho thấy quyết tâm chiến thắng ở mọi giải đấu, từ ABL cho tới VBA.
+                            Đà Nẵng được mệnh danh là thành phố sôi động và “đáng sống” nhất miền Trung Việt Nam, nơi tự hào với “biểu tượng” cầu rồng thép lớn nhất châu Á. Bên cạnh sự bình yên và thân thiện, Đà Năng còn là nơi hội tụ những cá nhân trẻ tuổi tràn đầy tài năng và tâm huyết với thể thao. Lấy hình ảnh rồng vàng bay cao, Danang Dragons được thành lập và trở thành đội bóng rổ chuyên nghiệp đầu tiên đại diện cho Đà Nẵng và khu vực miền Trung dưới sự dẫn dắt của Huấn luyện viên trưởng Donte Hill. Mang trong mình dòng máu của những nhà vô địch, Danang Dragons trở lại đầy mạnh mẽ với mục tiêu chinh phục ngôi vị đỉnh cao một lần nữa.                            
                         </p>
                     </div>
                     
@@ -275,8 +273,8 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="map-match">
-                        <p>Nhà thi đấu trường quốc tế CIS, đường số 23, phường Tân Phú, Quận 7, TP.HCM</p>
-                        <img src="../img/map-sgh.jpg">
+                        <p>Nhà thi đấu Quân khu 5 - số 7 Duy Tân, quận Hải Châu, TP. Đà Nẵng</p>
+                        <img src="../img/map_dnd.jpg">
                     </div>
                     <div class="retail-price col-sm-12 text-left">
                         <div class="col-xs-6 col-sm-3 col-md-2 padding-left-0 mg-bottom-10">
@@ -355,10 +353,20 @@
                         <div class="wrapper">
                             <img src="../img/logo_hnb.png" class="w-100" />
                             <div class="abs">
-                                <a href="" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="hnb" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>
+                    
+                    <div class="col-xs-6 team-bl">
+                        <div class="wrapper">
+                            <img src="../img/logo_sgh.png" class="w-100">
+                            <div class="abs">
+                                <a href="sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
+                            </div>
+                        </div>                        
+                    </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
                             <img src="../img/logo_tlw.png" class="w-100">
@@ -367,14 +375,7 @@
                             </div>
                         </div>                        
                     </div>
-                    <div class="col-xs-6 team-bl">
-                        <div class="wrapper">
-                            <img src="../img/logo_dnd.png" class="w-100">
-                            <div class="abs">
-                                <a href="dnd" class="anchor book-now page-scroll color-white orange-color" target="_blank">ĐẶT VÉ NGAY</a>
-                            </div>
-                        </div>                        
-                    </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper rotate">
                             <img src="../img/logo_hcm_thidau.png" class="w-100">

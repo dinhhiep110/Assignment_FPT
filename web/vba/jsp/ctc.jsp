@@ -1,6 +1,6 @@
 <%-- 
-    Document   : sgh
-    Created on : Nov 5, 2021, 9:36:55 PM
+    Document   : ctc
+    Created on : Nov 7, 2021, 9:21:00 PM
     Author     : Duy Hiep
 --%>
 
@@ -22,12 +22,13 @@
     <meta name="data-showing-id" content="42065" />
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
     
-    <title>SAIGON HEAT</title>
+    <title>CANTHO CATFISH</title>
     <link href="../vba/css/slick-theme.css" rel="stylesheet" type="text/css"/>
     <link href="../vba/css/slick.css" rel="stylesheet" />
     <link href="../view/css/vba.css" rel="stylesheet" />
     <link href="../view/css/vbaSGH.css" rel="stylesheet" />
-    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-sgh/css/vbaSGH.css?v=20213705.0937" rel="stylesheet">
+    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-ctc/css/vbaCTC.css?v=20212607.0926" rel="stylesheet">
+
 
 
 </head>
@@ -76,7 +77,7 @@
     <div class="navbar-collapse padding-right-0 padding-left-0 container collapse" id="bs-example-navbar-collapse-1" style="">
         <ul class="nav navbar-nav w-100 text-center">
             <li>
-                <a class="page-scroll text-uppercase" href="#intro">Saigon Heat</a>
+                <a class="page-scroll text-uppercase" href="#intro">CANTHO CATFISH</a>
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#ticket">VÉ TRẬN</a>
@@ -96,7 +97,7 @@
 </nav>
 <div class="main-nav hidden-xs">
     <div class="hidden-xs container ">
-        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Saigon Heat</a></div>
+        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Cantho Catfish</a></div>
         <div class="uppercase menu--item1"><a href="#ticket" class="page-scroll menu__text">VÉ TRẬN</a></div>
         <div class="uppercase menu--item1"><a href="#courst" class="page-scroll menu__text">BẢN ĐỒ SÂN</a></div>
         <div class="uppercase menu--item1"><a href="#about-vba" class="page-scroll menu__text">VỀ VBA</a></div>
@@ -114,11 +115,11 @@
                 <div class="">
                     <div class="sec3 row bg-white">
                         <div class="bor-top border-top-red title-bl">
-                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Saigon Heat</h1>
+                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Cantho CatFish</h1>
                         </div>
                         <p class="mg-16 about-vba">
-                            Được thành lập vào năm 2011, Saigon Heat là đội bóng rổ đi theo mô hình chuyên nghiệp đầu tiên ở Việt Nam. Trở thành đại diện duy nhất của Việt Nam tham dự Giải bóng rổ nhà nghề Đông Nam Á, Sau những nỗ lực không ngừng nghỉ, Saigon Heat đã tạo nên lịch sử cho bóng rổ Việt Nam với thành tích lọt vào Top 4 đội mạnh nhất của mùa giải ABL 2014. Mùa giải 2015-2016 chứng kiến một Saigon Heat trẻ trung, mạnh mẽ  tái lập thành tích lịch sử và tạo nên cơn sốt bóng rổ chưa từng thấy tại Việt Nam. <br/><br/>
-                            Tiếp bước tinh thần tạo nên thành công, Saigon Heat trở thành cái tên đầu tiên góp mặt tại VBA, giải đấu theo mô hình chuyên nghiệp đầu tiên tại Việt Nam, được tổ chức với hy vọng nâng tầm bóng rổ và tạo ra môi trường cạnh tranh chuyên nghiệp nhất. Với đội hình được xây dựng bài bản, Saigon Heat cho thấy quyết tâm chiến thắng ở mọi giải đấu, từ ABL cho tới VBA.
+                            Cần Thơ là thành phố lớn nhất miền Tây, đồng thời là cái nôi nuôi dưỡng phong trào bóng rổ chuyên nghiệp của Việt Nam từ rất lâu. Sau rất nhiều thời gian chờ đợi, đội bóng rổ chuyên nghiệp Cantho Catfish được thành lập với niềm tin đây không chỉ là một lá cờ đầu của bóng rổ miền Tây mà còn là nơi các cầu thủ chuyên nghiệp có thể sống với đam mê bóng rổ của mình – một điều vô cùng ý nghĩa đối với thể thao của khu vực miền Tây. <br/><br/>
+                            Cantho Catfish không thiếu những tài năng bóng rổ cũng như tinh thần thi đấu chuyên nghiệp từ các lò bóng rổ lâu đời của Việt Nam. Đây là một đội hình đa dạng kết hợp giữa các cầu thủ trẻ trung, giàu nhiệt huyết của Cần Thơ, Hồ Chí Minh và các cầu thủ Sóc Trăng dày dạn kinh nghiệm thi đấu. Dưới sự dẫn dắt của HLV giàu thành tích Kevin Yurkus, đội bóng miền Tây hứa hẹn sẽ đem đến những trận đấu ở đẳng cấp cao nhất với phong cách uyển chuyển, linh hoạt và tinh thần quyết tâm cao độ không chút e ngại.                            
                         </p>
                     </div>
                     
@@ -275,8 +276,8 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="map-match">
-                        <p>Nhà thi đấu trường quốc tế CIS, đường số 23, phường Tân Phú, Quận 7, TP.HCM</p>
-                        <img src="../img/map-sgh.jpg">
+                        <p>Nhà thi đấu Đa Năng Thành Phố Cần Thơ, số 3 Lê Lợi, quận Ninh Kiều, TP. Cần Thơ</p>
+                        <img src="../img/map_ctc.jpg">
                     </div>
                     <div class="retail-price col-sm-12 text-left">
                         <div class="col-xs-6 col-sm-3 col-md-2 padding-left-0 mg-bottom-10">
@@ -383,11 +384,12 @@
                             </div>
                         </div>                        
                     </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="../img/logo_ctc.png" class="w-100">
+                            <img src="../img/logo_sgh.png" class="w-100">
                             <div class="abs">
-                                <a href="ctc" class="anchor book-now page-scroll color-white green-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>

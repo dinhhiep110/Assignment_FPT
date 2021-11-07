@@ -152,7 +152,7 @@
                         <div class="wrapper">
                             <img src="img/logo_tlw.png" class="w-100">
                             <div class="abs">
-                                <a href="https://ticketbox.vn/vba-tlw" class="anchor book-now page-scroll color-white white-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="vba/tlw" class="anchor book-now page-scroll color-white white-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         <div class="wrapper">
                             <img src="img/logo_dnd.png" class="w-100">
                             <div class="abs">
-                                <a href="https://ticketbox.vn/vba-dnd" class="anchor book-now page-scroll color-white orange-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="vba/dnd" class="anchor book-now page-scroll color-white orange-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                         <div class="wrapper">
                             <img src="img/logo_hcm_thidau.png" class="w-100">
                             <div class="abs">
-                                <a href="https://ticketbox.vn/vba-wings" class="anchor book-now page-scroll color-white light-blue-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="vba/hcm" class="anchor book-now page-scroll color-white light-blue-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@
                         <div class="wrapper">
                             <img src="img/logo_ctc.png" class="w-100">
                             <div class="abs">
-                                <a href="https://ticketbox.vn/vba-ctc" class="anchor book-now page-scroll color-white yellow-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="vba/ctc" class="anchor book-now page-scroll color-white yellow-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>
                     </div>     
@@ -184,7 +184,7 @@
                         <div class="wrapper">
                             <img src="img/logo_hnb.png" class="w-100" />
                             <div class="abs">
-                                <a href="https://ticketbox.vn/vba-hnb" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="vba/hnb" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>
                     </div>               
@@ -202,7 +202,7 @@
                 <div class="clearfix pd-8 teams-row">
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_sgh.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_sgh.png" class="w-100">
                             <div class="abs">
                                 <a href="team/schedule" class="anchor book-now page-scroll color-white red-color" target="_blank">Update Now</a>
                             </div>
@@ -210,7 +210,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_tlw.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_tlw.png" class="w-100">
                             <div class="abs">
                                 <a href="team/schedule" class="anchor book-now page-scroll color-white white-color" target="_blank">Update Now</a>
                             </div>
@@ -218,7 +218,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_dnd.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_dnd.png" class="w-100">
                             <div class="abs">
                                 <a href="team/schedule" class="anchor book-now page-scroll color-white orange-color" target="_blank">Update Now</a>
                             </div>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_hcmc.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_hcm_thidau.png" class="w-100">
                             <div class="abs">
                                 <a href="team/schedule" class="anchor book-now page-scroll color-white light-blue-color" target="_blank">Update Now</a>
                             </div>
@@ -234,7 +234,7 @@
                     </div>
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_ctc.png?v=@Constants.StaticUrlVersion" class="w-100">
+                            <img src="img/logo_ctc.png" class="w-100">
                             <div class="abs">
                                 <a href="team/schedule" class="anchor book-now page-scroll color-white yellow-color" target="_blank">Update Now</a>
                             </div>
@@ -242,7 +242,7 @@
                     </div>     
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="https://static.ticketbox.vn/static-page/landingpages/vba/images/logo_hnb.png?v=@Constants.StaticUrlVersion" class="w-100" />
+                            <img src="img/logo_hnb.png" class="w-100" />
                             <div class="abs">
                                 <a href="team/schedule" class="anchor book-now page-scroll color-white blue-color" target="_blank">Update Now</a>
                             </div>

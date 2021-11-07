@@ -999,8 +999,7 @@ footer, footer p {
     border: none;
     border-right: 2px solid #BCB4B2;
     padding: 40px;
-    width: 20%;
-    font-size: 20px;
+    font-size: 15px;
     -ms-transform: skewX(-40deg);
     -webkit-transform: skewX(-40deg);
     transform: skewX(-40deg);

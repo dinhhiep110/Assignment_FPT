@@ -41,8 +41,32 @@
         <servlet-class>Controller.User.SaigonHeatController</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>SGHBooking</servlet-name>
-        <servlet-class>Controller.Booking.SGHBooking</servlet-class>
+        <servlet-name>Booking</servlet-name>
+        <servlet-class>Controller.Booking.Booking</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AreaBookingController</servlet-name>
+        <servlet-class>Controller.Area.AreaBookingController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ThangLongWarriorsController</servlet-name>
+        <servlet-class>Controller.User.ThangLongWarriorsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DaNangDragonController</servlet-name>
+        <servlet-class>Controller.User.DaNangDragonController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HCMCityWingsController</servlet-name>
+        <servlet-class>Controller.User.HCMCityWingsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CanThoCatFishController</servlet-name>
+        <servlet-class>Controller.User.CanThoCatFishController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HaNoiBuffaloesController</servlet-name>
+        <servlet-class>Controller.User.HaNoiBuffaloesController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
@@ -85,8 +109,32 @@
         <url-pattern>/vba/sgh</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>SGHBooking</servlet-name>
-        <url-pattern>/booking/sgh</url-pattern>
+        <servlet-name>AreaBookingController</servlet-name>
+        <url-pattern>/booking/area</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ThangLongWarriorsController</servlet-name>
+        <url-pattern>/vba/tlw</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Booking</servlet-name>
+        <url-pattern>/booking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DaNangDragonController</servlet-name>
+        <url-pattern>/vba/dnd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HCMCityWingsController</servlet-name>
+        <url-pattern>/vba/hcm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CanThoCatFishController</servlet-name>
+        <url-pattern>/vba/ctc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HaNoiBuffaloesController</servlet-name>
+        <url-pattern>/vba/hnb</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

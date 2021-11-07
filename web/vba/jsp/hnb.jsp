@@ -1,6 +1,6 @@
 <%-- 
-    Document   : sgh
-    Created on : Nov 5, 2021, 9:36:55 PM
+    Document   : hnb
+    Created on : Nov 7, 2021, 9:43:19 PM
     Author     : Duy Hiep
 --%>
 
@@ -22,12 +22,15 @@
     <meta name="data-showing-id" content="42065" />
     <link href="https://static.tkbcdn.com/static-page/css/lib-lp.min.css?v=4259" rel="stylesheet">
     
-    <title>SAIGON HEAT</title>
+    <title>HANOI BUFFALOES</title>
     <link href="../vba/css/slick-theme.css" rel="stylesheet" type="text/css"/>
     <link href="../vba/css/slick.css" rel="stylesheet" />
     <link href="../view/css/vba.css" rel="stylesheet" />
     <link href="../view/css/vbaSGH.css" rel="stylesheet" />
-    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-sgh/css/vbaSGH.css?v=20213705.0937" rel="stylesheet">
+    <link href="https://static.tkbcdn.com/static-page/landingpages/vba-hnb/css/vbaHNB.css?v=20214507.0945" rel="stylesheet">
+
+    
+
 
 
 </head>
@@ -76,7 +79,7 @@
     <div class="navbar-collapse padding-right-0 padding-left-0 container collapse" id="bs-example-navbar-collapse-1" style="">
         <ul class="nav navbar-nav w-100 text-center">
             <li>
-                <a class="page-scroll text-uppercase" href="#intro">Saigon Heat</a>
+                <a class="page-scroll text-uppercase" href="#intro">HANOI BUFFALOES</a>
             </li>
             <li>
                 <a class="page-scroll text-uppercase" href="#ticket">VÉ TRẬN</a>
@@ -96,7 +99,7 @@
 </nav>
 <div class="main-nav hidden-xs">
     <div class="hidden-xs container ">
-        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Saigon Heat</a></div>
+        <div class="uppercase menu--item1"><a href="#intro" class="page-scroll menu__text">Hanoi Buffaloes</a></div>
         <div class="uppercase menu--item1"><a href="#ticket" class="page-scroll menu__text">VÉ TRẬN</a></div>
         <div class="uppercase menu--item1"><a href="#courst" class="page-scroll menu__text">BẢN ĐỒ SÂN</a></div>
         <div class="uppercase menu--item1"><a href="#about-vba" class="page-scroll menu__text">VỀ VBA</a></div>
@@ -114,11 +117,12 @@
                 <div class="">
                     <div class="sec3 row bg-white">
                         <div class="bor-top border-top-red title-bl">
-                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Saigon Heat</h1>
+                            <h1 class="text-uppercase text-red bg-tl-white about-title text-center">Hanoi Buffaloes</h1>
                         </div>
                         <p class="mg-16 about-vba">
-                            Được thành lập vào năm 2011, Saigon Heat là đội bóng rổ đi theo mô hình chuyên nghiệp đầu tiên ở Việt Nam. Trở thành đại diện duy nhất của Việt Nam tham dự Giải bóng rổ nhà nghề Đông Nam Á, Sau những nỗ lực không ngừng nghỉ, Saigon Heat đã tạo nên lịch sử cho bóng rổ Việt Nam với thành tích lọt vào Top 4 đội mạnh nhất của mùa giải ABL 2014. Mùa giải 2015-2016 chứng kiến một Saigon Heat trẻ trung, mạnh mẽ  tái lập thành tích lịch sử và tạo nên cơn sốt bóng rổ chưa từng thấy tại Việt Nam. <br/><br/>
-                            Tiếp bước tinh thần tạo nên thành công, Saigon Heat trở thành cái tên đầu tiên góp mặt tại VBA, giải đấu theo mô hình chuyên nghiệp đầu tiên tại Việt Nam, được tổ chức với hy vọng nâng tầm bóng rổ và tạo ra môi trường cạnh tranh chuyên nghiệp nhất. Với đội hình được xây dựng bài bản, Saigon Heat cho thấy quyết tâm chiến thắng ở mọi giải đấu, từ ABL cho tới VBA.
+                            Hà Nội là thủ đô của Việt Nam, trái tim của miền Bắc với phong trào xã hội hóa bóng rổ rộng khắp. <br>
+                            Là đại diện đầu tiên của Hà Nội tham dự Giải bóng rổ chuyên nghiệp Việt Nam (VBA) và cũng là đại diện đầu tiên cho bóng rổ miền Bắc Việt Nam tham gia đấu trường khu vực (TBSL 2017), Hanoi Buffaloes đã và đang định hình đội bóng với lối chơi cống hiến, đẹp mắt; chú trọng phòng ngự nhưng vẫn luôn mang đến cho khán giả những phút giây bùng nổ. Bên cạnh đó, Trâu thủ đô thực sự là một gia đình dành cho không chỉ các cầu thủ, ban huấn luyện mà còn của tất cả những người yêu thích và ủng hộ phong trào bóng rổ tại Hà Nội khi luôn xuất hiện với hình ảnh một tập thể đoàn kết cả trong lẫn ngoài sân, cùng triết lý bóng rổ đề cao sự phối hợp đồng đội. <br/><br/>
+                            Hãy cùng đón chờ một Hanoi Buffaloes đầy quyết tâm chinh phục ngôi vị cao nhất khi trở lại đường đua VBA 2021.
                         </p>
                     </div>
                     
@@ -275,8 +279,8 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="map-match">
-                        <p>Nhà thi đấu trường quốc tế CIS, đường số 23, phường Tân Phú, Quận 7, TP.HCM</p>
-                        <img src="../img/map-sgh.jpg">
+                        <p>Nhà thi đấu Bách Khoa, 40-42 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội</p>
+                        <img src="../img/map_hnb.jpg">
                     </div>
                     <div class="retail-price col-sm-12 text-left">
                         <div class="col-xs-6 col-sm-3 col-md-2 padding-left-0 mg-bottom-10">
@@ -351,14 +355,16 @@
                 </p>
                 <h2 class="slogan mg-16 text-uppercase">THÔNG TIN CÁC ĐỘI TUYỂN KHÁC</h2>
                 <div class="clearfix pd-8 teams-row" id="other">
+                     
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="../img/logo_hnb.png" class="w-100" />
+                            <img src="../img/logo_ctc.png" class="w-100">
                             <div class="abs">
-                                <a href="" class="anchor book-now page-scroll color-white blue-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="ctc" class="anchor book-now page-scroll color-white green-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
                             <img src="../img/logo_tlw.png" class="w-100">
@@ -383,11 +389,12 @@
                             </div>
                         </div>                        
                     </div>
+                    
                     <div class="col-xs-6 team-bl">
                         <div class="wrapper">
-                            <img src="../img/logo_ctc.png" class="w-100">
+                            <img src="../img/logo_sgh.png" class="w-100">
                             <div class="abs">
-                                <a href="ctc" class="anchor book-now page-scroll color-white green-color" target="_blank">ĐẶT VÉ NGAY</a>
+                                <a href="sgh" class="anchor book-now page-scroll color-white red-color" target="_blank">ĐẶT VÉ NGAY</a>
                             </div>
                         </div>                        
                     </div>

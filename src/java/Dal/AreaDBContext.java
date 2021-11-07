@@ -57,4 +57,30 @@ public class AreaDBContext extends DBContext{
             Logger.getLogger(AreaDBContext.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    public Area getAreaByID(int id){
+        try {
+            String sql = "SELECT [id]\n" +
+                    "      ,[name]\n" +
+                    "      ,[row]\n" +
+                    "      ,[column]\n" +
+                    "      ,[priceTicket]\n" +
+                    "  FROM [Area] where id = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setInt(1, id);
+            ResultSet rs = stm.executeQuery();
+            if (rs.next()) {
+                Area a = new Area();
+                a.setId(rs.getInt("id"));
+                a.setName(rs.getString("name"));
+                a.setRow(rs.getInt("row"));
+                a.setColumn(rs.getInt("column"));
+                a.setPriceTicket(rs.getInt("priceTicket"));
+                return a;
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(AreaDBContext.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
+    }
 }
