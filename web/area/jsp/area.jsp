@@ -12,20 +12,48 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Booking Area Page</title>
         <% Area a = (Area) request.getAttribute("area"); %>
+        <link href="../area/css/area.css" rel="stylesheet">
+        <script src="../area/js/area.js"></script>
     </head>
     <body>
         <h1>${requestScope.name}</h1>
-        <form action="area" method="Post">
-            Select amount of ticket: <select name="amount ticket">
-                <option value="1">1</option>
-                <option value="2">2</option> 
-            </select><br>
+        <div class="booking-container">
+            <ul class="showcase">
+                <li>
+                  <div class="seat"></div>
+                  <small>N/A</small>
+                </li>
+
+                <li>
+                  <div class="seat selected"></div>
+                  <small>Selected</small>
+                </li>
+
+                <li>
+                  <div class="seat occupied"></div>
+                  <small>Occupied</small>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            
+            <% String hold = "";%>
             <% for (int i = 0; i < a.getRow(); i++) {%>
+                <div class="row">
                 <% for (int j = 0; j < a.getColumn(); j++) {%>
-                <input type="checkbox" value=<%=j%>> 
+                <% hold = i + "-" + j;%>
+                <div class="seat"></div>
                 <% } %><br>
+                </div>
             <% } %><br>
-            <input type="submit" value="Submit">
-        </form>
+            
+            
+        </div>
+        <p class="text">
+          You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+        </p>
+        <script src="../area/js/area.js" type="text/javascript"></script>
     </body>
+    
+    
 </html>

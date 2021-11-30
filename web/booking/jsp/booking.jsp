@@ -166,7 +166,7 @@
                     <img src="https://static.tkbcdn.com/site/global/content-v2/img/ticketbox-logo-100.png?v1" />
                 </div>
                 <div class="ftft-left">
-                    Hệ thống quản l&#253; v&#224; ph&#226;n phối v&#233; sự kiện h&#224;ng đầu ch&#226;u &#193;. <br /> TicketBox Co. Ltd. &#169; 2016
+                    Hệ thống quản l&#253; v&#224; ph&#226;n phối v&#233; sự kiện h&#224;ng đầu ch&#226;u &#193;. <br /> 
                 </div>
             </div>
         </div>
@@ -174,13 +174,7 @@
     </section>
 </footer> 
 
-    <script src="https://static.tkbcdn.com/dist/tkbvn/js/spa/common-libs.js?v3"></script>
-    
-    <script src="https://static.tkbcdn.com/dist/tkbvn/js/shared/layoutv2-1.js?v=4259"></script>
    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
-        
-    <script src="https://static.tkbcdn.com/dist/tkbvn/js/spa/ticket-booking-v15.js?v=4259"></script>
     
 </body>
 </html>

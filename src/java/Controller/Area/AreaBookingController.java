@@ -32,6 +32,7 @@ public class AreaBookingController extends BaseRequiredAuthController {
 
     @Override
     protected void proccessPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        
     }
 
     
